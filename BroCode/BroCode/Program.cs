@@ -158,9 +158,13 @@ namespace MyCsProgram
             //               different data types can do different things
 
             double a = 3.14;
-            int b = Convert.ToInt32(a);
+            int b = Convert.ToInt32(a); //converted double to int
 
             Console.WriteLine(b);
+
+            //prints out the datatype of the variable
+            //Console.WriteLine(b.GetType());
+
             Console.ReadKey();
         }
     }
