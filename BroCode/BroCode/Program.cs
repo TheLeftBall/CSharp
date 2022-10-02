@@ -91,7 +91,17 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            char character = 'x';
 
+            string word = "word";
+
+            int wholeNum = 4;
+
+            double decimalNum = 4.5;
+
+            bool isAlive = true;
+
+            Console.ReadKey();
         }
     }
 }
