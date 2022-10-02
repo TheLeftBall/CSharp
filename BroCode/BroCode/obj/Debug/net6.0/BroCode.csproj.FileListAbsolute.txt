@@ -1,0 +1,15 @@
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/bin/Debug/net6.0/BroCode
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/bin/Debug/net6.0/BroCode.deps.json
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/bin/Debug/net6.0/BroCode.runtimeconfig.json
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/bin/Debug/net6.0/BroCode.dll
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/bin/Debug/net6.0/BroCode.pdb
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/obj/Debug/net6.0/BroCode.csproj.AssemblyReference.cache
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/obj/Debug/net6.0/BroCode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/obj/Debug/net6.0/BroCode.AssemblyInfoInputs.cache
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/obj/Debug/net6.0/BroCode.AssemblyInfo.cs
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/obj/Debug/net6.0/BroCode.csproj.CoreCompileInputs.cache
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/obj/Debug/net6.0/BroCode.dll
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/obj/Debug/net6.0/refint/BroCode.dll
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/obj/Debug/net6.0/BroCode.pdb
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/obj/Debug/net6.0/BroCode.genruntimeconfig.cache
+/Users/eduardboytsov/Desktop/CSharp/BroCode/BroCode/obj/Debug/net6.0/ref/BroCode.dll
