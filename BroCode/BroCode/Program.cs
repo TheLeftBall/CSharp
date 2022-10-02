@@ -1,5 +1,6 @@
-﻿//C# BroCode lesson 1
-using System;
+﻿//lesson 1: Getting started with C#
+
+/*using System;
 
 namespace MyCsProgram
 {
@@ -17,4 +18,30 @@ namespace MyCsProgram
         }
     }
 }
+*/
 
+//__________________________________
+//Lesson 2: Output
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
+}
+
+/*namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
+}*/
