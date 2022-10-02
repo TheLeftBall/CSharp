@@ -6,7 +6,9 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("I like pizaa");
+            Console.WriteLine("It's really good");
+
         }
     }
 }
