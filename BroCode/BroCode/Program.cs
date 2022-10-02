@@ -22,7 +22,7 @@ namespace MyCsProgram
 
 //__________________________________
 //Lesson 2: Output
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -75,8 +75,20 @@ namespace MyCsProgram
             // \? = literal question mark
             Console.WriteLine("Hello World");
 
+            //prevents the program from ending until hit enter
+            //hides all the extra stuff from 
+            Console.ReadKey(); 
+        }
+    }
+}*/
 
-            Console.ReadKey(); //prevents the program from ending until hit enter
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
         }
     }
 }
