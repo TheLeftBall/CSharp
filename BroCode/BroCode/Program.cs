@@ -41,6 +41,42 @@ namespace MyCsProgram
             //shortcut to create a .writeline statement
             //type cw and hit tab twice
 
+            //Escape Sequences:
+            // \a = bell(alert)
+            Console.WriteLine("Hello World");
+
+            // \b = backspace 
+            Console.WriteLine("Hello World");
+
+            // \f = form Feed
+            Console.WriteLine("Hello World");
+
+            // \n = new line
+            Console.WriteLine("Hello World");
+
+            // \r = carriage return 
+            Console.WriteLine("Hello World");
+
+            // \t = horizontal tab
+            Console.WriteLine("\tHello World");
+
+            // \v = vertical tab
+            Console.WriteLine("Hello World");
+
+            // \' = single quotation mark
+            Console.WriteLine("Hello World");
+
+            // \" = double quotation mark
+            Console.WriteLine("Hello World");
+
+            // \\ = backlash
+            Console.WriteLine("Hello World");
+
+            // \? = literal question mark
+            Console.WriteLine("Hello World");
+
+
+            Console.ReadKey(); //prevents the program from ending until hit enter
         }
     }
 }
