@@ -165,6 +165,11 @@ namespace MyCsProgram
             //prints out the datatype of the variable
             //Console.WriteLine(b.GetType());
 
+            int c = 200;
+            double d = Convert.ToDouble(c) + 0.1;
+
+            Console.WriteLine(d);
+
             Console.ReadKey();
         }
     }
