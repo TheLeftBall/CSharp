@@ -157,6 +157,11 @@ namespace MyCsProgram
             //               useful when we accept user input (string)
             //               different data types can do different things
 
+            double a = 3.14;
+            int b = Convert.ToInt32(a);
+
+            Console.WriteLine(b);
+            Console.ReadKey();
         }
     }
 }
