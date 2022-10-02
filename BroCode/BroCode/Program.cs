@@ -82,6 +82,9 @@ namespace MyCsProgram
     }
 }*/
 
+//__________________________________
+//Lesson 3: Variables
+
 namespace MyCsProgram
 {
     class Program
