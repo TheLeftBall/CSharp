@@ -122,7 +122,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 4: Constants
 
-namespace MyCsProgram
+/*namespace MyCsProgram
 {
     class Program
     {
@@ -142,7 +142,27 @@ namespace MyCsProgram
             Console.ReadKey();
         }
     }
+}*/
+
+//__________________________________
+//Lesson 5: type casting
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //type casting = converting a value to a different data type
+            //               useful when we accept user input (string)
+            //               different data types can do different things
+
+        }
+    }
 }
+
+// __________________________________
+//Lesson
 
 /*namespace MyCsProgram
 {
