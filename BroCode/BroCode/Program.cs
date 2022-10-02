@@ -12,6 +12,7 @@ namespace MyCsProgram
             Console.WriteLine("It's really good");
 
             Console.Beep(); //console emits a beeing sound when reaches the function
+            Console.Write("beep probs works");//Probably ignored by the MacOS
 
         }
     }
