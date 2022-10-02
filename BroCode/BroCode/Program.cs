@@ -192,6 +192,10 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            string instructions = "Write your name";
+
+            Console.WriteLine(instructions);
+
             string name = Console.ReadLine();
 
             Console.WriteLine("Hello " + name);
