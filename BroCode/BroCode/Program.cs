@@ -104,6 +104,7 @@ namespace MyCsProgram
 
             bool isAlive = true;
 
+            Console.WriteLine(wholeNum);
             Console.ReadKey();
         }
     }
