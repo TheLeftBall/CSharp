@@ -192,13 +192,15 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
-            string instructions = "Write your name";
-
-            Console.WriteLine(instructions);
-
+            string nameInstructions = "Write your name";
+            Console.WriteLine(nameInstructions);
             string name = Console.ReadLine();
-
             Console.WriteLine("Hello " + name);
+
+            string ageInstructions = "Write your age";
+            Console.WriteLine(ageInstructions);
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("You are " + age + " years old");
 
             Console.ReadKey();
         }
