@@ -104,8 +104,17 @@ namespace MyCsProgram
 
             bool isAlive = true;
 
-            Console.WriteLine(wholeNum);
+            //Console.WriteLine(wholeNum);
+
+            int age = 23;
+            double height = 184.5;
+
+            Console.WriteLine("Your age is " + age);
+            Console.WriteLine("Your height is " + height + "cm");
+
             Console.ReadKey();
+
+
         }
     }
 }
