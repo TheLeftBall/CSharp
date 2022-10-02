@@ -91,6 +91,9 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //int x; //declaration
+            //x = 10; //initialization 
+
             char character = 'x';
 
             string word = "word";
