@@ -1,0 +1,15 @@
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/bin/Debug/net6.0/TestConsoleApp
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/bin/Debug/net6.0/TestConsoleApp.deps.json
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/bin/Debug/net6.0/TestConsoleApp.runtimeconfig.json
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/bin/Debug/net6.0/TestConsoleApp.dll
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/bin/Debug/net6.0/TestConsoleApp.pdb
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/obj/Debug/net6.0/TestConsoleApp.csproj.AssemblyReference.cache
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/obj/Debug/net6.0/TestConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/obj/Debug/net6.0/TestConsoleApp.AssemblyInfoInputs.cache
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/obj/Debug/net6.0/TestConsoleApp.AssemblyInfo.cs
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/obj/Debug/net6.0/TestConsoleApp.csproj.CoreCompileInputs.cache
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/obj/Debug/net6.0/TestConsoleApp.dll
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/obj/Debug/net6.0/refint/TestConsoleApp.dll
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/obj/Debug/net6.0/TestConsoleApp.pdb
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/obj/Debug/net6.0/TestConsoleApp.genruntimeconfig.cache
+/Users/eduardboytsov/Desktop/CSharp/TestConsoleApp/obj/Debug/net6.0/ref/TestConsoleApp.dll
