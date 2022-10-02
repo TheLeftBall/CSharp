@@ -30,6 +30,16 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //doesnt hit the enter key after the end.
+            //whatever prints after will be printed on the same line
+            Console.Write("Hey!"); 
+
+            //hits enter at the end. wtvr prints after will
+            //print on a new line
+            Console.WriteLine("Hello World");
+
+            //shortcut to create a .writeline statement
+            //type cw and hit tab twice
 
         }
     }
