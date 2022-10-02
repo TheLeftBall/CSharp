@@ -147,7 +147,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 5: type casting
 
-namespace MyCsProgram
+/*namespace MyCsProgram
 {
     class Program
     {
@@ -177,6 +177,24 @@ namespace MyCsProgram
             string g = "true";
             bool h = Convert.ToBoolean(g);
             Console.WriteLine(h);
+
+            Console.ReadKey();
+        }
+    }
+}*/
+
+// __________________________________
+//Lesson 6: user input
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Hello " + name);
 
             Console.ReadKey();
         }
