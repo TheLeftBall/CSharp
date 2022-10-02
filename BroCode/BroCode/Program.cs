@@ -94,7 +94,7 @@ namespace MyCsProgram
             //int x; //declaration
             //x = 10; //initialization 
 
-            char character = 'x';
+            char character = 'x'; //single quotes
 
             string word = "word";
 
