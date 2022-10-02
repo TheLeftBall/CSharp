@@ -85,7 +85,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 3: Variables
 
-namespace MyCsProgram
+/*namespace MyCsProgram
 {
     class Program
     {
@@ -114,6 +114,22 @@ namespace MyCsProgram
 
             Console.ReadKey();
 
+
+        }
+    }
+}*/
+
+//__________________________________
+//Lesson 4: Constants
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // constants = immutable values which are knwon at compile time
+            //             and do not change for the lide of the program
 
         }
     }
