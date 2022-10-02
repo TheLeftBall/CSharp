@@ -85,7 +85,8 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 3: Variables
 
-/*namespace MyCsProgram
+/*using System;
+ * namespace MyCsProgram
 {
     class Program
     {
@@ -122,7 +123,8 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 4: Constants
 
-/*namespace MyCsProgram
+/*using System;
+ * namespace MyCsProgram
 {
     class Program
     {
@@ -147,7 +149,8 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 5: type casting
 
-/*namespace MyCsProgram
+/*using System;
+ * namespace MyCsProgram
 {
     class Program
     {
@@ -186,7 +189,8 @@ namespace MyCsProgram
 // __________________________________
 //Lesson 6: user input
 
-namespace MyCsProgram
+/*using System;
+ * namespace MyCsProgram
 {
     class Program
     {
@@ -203,6 +207,26 @@ namespace MyCsProgram
             Console.WriteLine("You are " + age + " years old");
 
             Console.ReadKey();
+        }
+    }
+}*/
+
+// __________________________________
+//Lesson
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int friends = 5;
+            int otherFriends = 5;
+            int allFriends = friends + otherFriends;
+
+            Console.WriteLine(allFriends);
+
         }
     }
 }
