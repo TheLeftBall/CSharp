@@ -131,6 +131,15 @@ namespace MyCsProgram
             // constants = immutable values which are knwon at compile time
             //             and do not change for the lide of the program
 
+            //double pi = 3.14159;
+            //pi = 3.15;
+            //as is pi can be changed by anyone, but if pi data type is preceded
+            //by const, making it an unchangeable value
+            const double pi = 3.14159;
+
+            Console.WriteLine(pi);
+
+            Console.ReadKey();
         }
     }
 }
