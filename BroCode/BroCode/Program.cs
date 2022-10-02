@@ -170,6 +170,14 @@ namespace MyCsProgram
 
             Console.WriteLine(d);
 
+            string e = "$";
+            char f = Convert.ToChar(e);
+            Console.WriteLine(f);
+
+            string g = "true";
+            bool h = Convert.ToBoolean(g);
+            Console.WriteLine(h);
+
             Console.ReadKey();
         }
     }
