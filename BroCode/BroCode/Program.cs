@@ -222,11 +222,15 @@ namespace MyCsProgram
         static void Main(string[] args)
         {
             int friends = 5;
-            int otherFriends = 5;
-            int allFriends = friends + otherFriends;
+            //int otherFriends = 5;
+            //int allFriends = friends + otherFriends;
 
-            Console.WriteLine(allFriends);
+            //Console.WriteLine(allFriends);
 
+            friends = friends + 1;
+            Console.WriteLine(friends);
+
+            Console.ReadKey();
         }
     }
 }
