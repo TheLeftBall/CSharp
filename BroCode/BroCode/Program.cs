@@ -247,6 +247,10 @@ namespace MyCsProgram
             //friends = friends / 2;
             //friends /= 2;
 
+            //modular aka the remainder
+            //friends = friends % 2;
+            //friends %= 2;
+
             Console.WriteLine(friends);
 
             Console.ReadKey();
