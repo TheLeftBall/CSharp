@@ -244,7 +244,8 @@ namespace MyCsProgram
             //friends *= 2;
 
             //division
-
+            //friends = friends / 2;
+            //friends /= 2;
 
             Console.WriteLine(friends);
 
