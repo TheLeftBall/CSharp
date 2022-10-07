@@ -212,8 +212,8 @@ namespace MyCsProgram
 }*/
 
 // __________________________________
-//Lesson
-using System;
+//Lesson 7: arithmetic
+/*using System;
 
 namespace MyCsProgram
 {
@@ -221,7 +221,7 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
-            int friends = 5;
+            //int friends = 10;
             //int otherFriends = 5;
             //int allFriends = friends + otherFriends;
 
@@ -251,7 +251,29 @@ namespace MyCsProgram
             //friends = friends % 2;
             //friends %= 2;
 
-            Console.WriteLine(friends);
+            //Console.WriteLine(friends);
+
+            //Console.ReadKey();
+        }
+    }
+}
+*/
+
+// __________________________________
+//Lesson 8: Math class
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double x = 3;
+
+            double a = Math.Pow(x, 3);
+
+            Console.WriteLine(a);
 
             Console.ReadKey();
         }
@@ -261,7 +283,9 @@ namespace MyCsProgram
 // __________________________________
 //Lesson
 
-/*namespace MyCsProgram
+/*using System;
+
+/namespace MyCsProgram
 {
     class Program
     {
