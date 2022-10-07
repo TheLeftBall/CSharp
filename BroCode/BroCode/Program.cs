@@ -227,7 +227,9 @@ namespace MyCsProgram
 
             //Console.WriteLine(allFriends);
 
-            friends = friends + 1;
+            //friends = friends + 1;
+            //is the same as
+            friends += 1; // or friends++
             Console.WriteLine(friends);
 
             Console.ReadKey();
