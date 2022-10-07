@@ -239,6 +239,13 @@ namespace MyCsProgram
             //OR
             //friends--;
 
+            //multiplication
+            //friends = friends * 2;
+            //friends *= 2;
+
+            //division
+
+
             Console.WriteLine(friends);
 
             Console.ReadKey();
