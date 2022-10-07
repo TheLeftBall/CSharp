@@ -227,9 +227,18 @@ namespace MyCsProgram
 
             //Console.WriteLine(allFriends);
 
+            //This is called incrementing 
             //friends = friends + 1;
             //is the same as
-            friends += 1; // or friends++
+            //friends += 1; // or friends++
+
+            //decrement = take awy from, make smaller
+            //friends = friends - 1;
+            //OR
+            //friends -= 1;
+            //OR
+            //friends--;
+
             Console.WriteLine(friends);
 
             Console.ReadKey();
