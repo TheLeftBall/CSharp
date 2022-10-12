@@ -317,7 +317,7 @@ namespace MyCsProgram
 // __________________________________
 //Lesson 10: hypotenuse calculator program 
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -336,6 +336,28 @@ namespace MyCsProgram
             double c = Math.Sqrt((a * a) + (b * b));
 
             Console.WriteLine("The hypotenuse of the triangle is: " + c);
+            Console.ReadKey();
+        }
+    }
+}*/
+
+// __________________________________
+//Lesson 11: string methods
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //string when referring to object
+            //String when referring to a class
+            string fullName = "Bro Code";
+
+
+
             Console.ReadKey();
         }
     }
