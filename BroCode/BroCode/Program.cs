@@ -382,6 +382,24 @@ namespace MyCsProgram
 }*/
 
 // __________________________________
+//Lesson 11: if statements 
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
+        }
+    }
+}
+
+// __________________________________
 //Lesson
 
 /*using System;
