@@ -363,9 +363,11 @@ namespace MyCsProgram
             //string value need to be reasigned if want to keep the value
             //Console.WriteLine(fullName);
 
-            phoneNumber = phoneNumber.Replace("-", "!"); //1st old character, 2nd the character to replace with
+            //phoneNumber = phoneNumber.Replace("-", "!"); //1st old character, 2nd the character to replace with
+            //Console.WriteLine(phoneNumber);
 
-            Console.WriteLine(phoneNumber);
+            string userName = fullName.Insert(0, "@"); //inserts string at the given index value
+            Console.WriteLine(userName);
 
             Console.ReadKey();
         }
