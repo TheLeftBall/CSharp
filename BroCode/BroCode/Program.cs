@@ -270,13 +270,17 @@ namespace MyCsProgram
         static void Main(string[] args)
         {
             double x = 3.14;
+            double y = 5;
 
             //double a = Math.Pow(x, 3);
             //double b = Math.Sqrt(x);
             //double c = Math.Abs(x);
-            double d = Math.Round(x);
+            //double d = Math.Round(x);
+            //double e = Math.Ceiling(x);
+            //double f = Math.Floor(x);
+            //double g = Math.Max(x, y);  finds out the largest number from the ones in brackets
 
-            Console.WriteLine(x);
+            Console.WriteLine(g);
 
             Console.ReadKey();
         }
