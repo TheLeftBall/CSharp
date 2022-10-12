@@ -333,6 +333,7 @@ namespace MyCsProgram
 
             double c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
             Console.WriteLine("The hypotenuse of the triangle is: " + c);
+            Console.ReadKey();
         }
     }
 }
@@ -349,6 +350,8 @@ namespace MyCsProgram
         static void Main(string[] args)
         {
 
+
+            Console.ReadKey();
         }
     }
 }*/
