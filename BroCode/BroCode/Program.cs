@@ -358,12 +358,14 @@ namespace MyCsProgram
 
             string phoneNumber = "123-456-7890";
 
-            //fullName = fullName.ToUpper(); //makes all letters upper case
+            //fullName = fullName.ToUpper(); //makes all letters upper case 
+            //fullName = fullName.ToLower(); //makes all the letter in the string lower case
             //string value need to be reasigned if want to keep the value
+            //Console.WriteLine(fullName);
 
-            fullName = fullName.ToLower(); //makes all the letter in the string lower case
+            phoneNumber = phoneNumber.Replace("-", "!"); //1st old character, 2nd the character to replace with
 
-            Console.WriteLine(fullName);
+            Console.WriteLine(phoneNumber);
 
             Console.ReadKey();
         }
