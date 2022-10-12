@@ -369,7 +369,7 @@ namespace MyCsProgram
             //string userName = fullName.Insert(0, "@"); //inserts string at the given index value
             //Console.WriteLine(userName);
 
-            Console.WriteLine(fullName.Length);
+            //Console.WriteLine(fullName.Length); prints out the lenght of the string
 
             Console.ReadKey();
         }
