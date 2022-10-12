@@ -356,7 +356,8 @@ namespace MyCsProgram
             //String when referring to a class
             string fullName = "Bro Code";
 
-
+            fullName = fullName.ToUpper(); //makes all letters upper case
+                                           //string value need to be reasigned if want to keep the value
 
             Console.ReadKey();
         }
