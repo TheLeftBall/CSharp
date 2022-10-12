@@ -392,6 +392,10 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //if statement = basic form of decision making
+
+            Console.WriteLine("Enter your age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
 
 
             Console.ReadKey();
