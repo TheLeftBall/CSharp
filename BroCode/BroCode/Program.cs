@@ -291,7 +291,7 @@ namespace MyCsProgram
 // __________________________________
 //Lesson 9: Random numbers
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -301,14 +301,18 @@ namespace MyCsProgram
         {
             Random random = new Random();
 
-            int num = random.Next(1, 7); //will generate a radnom number between 0 and 2 billion
-                                         //alternatively can set the boundary, 1st number inclusive, 2nd exclusive
+            int num1 = random.Next(1, 7); //will generate a radnom number between 0 and 2 billion
+                                          //alternatively can set the boundary, 1st number inclusive, 2nd exclusive
+            int num2 = random.Next(1, 7);
+            int num3 = random.Next(1, 7);
 
-            Console.WriteLine(num);
+            //double num2 = random.NextDouble();  //will generate a random number between 0 and 1
+
+            Console.WriteLine(num1);
             Console.ReadKey();
         }
     }
-}
+}*/
 
 // __________________________________
 //Lesson
