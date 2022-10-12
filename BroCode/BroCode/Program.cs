@@ -371,6 +371,11 @@ namespace MyCsProgram
 
             //Console.WriteLine(fullName.Length); prints out the lenght of the string
 
+            //string firstName = fullName.Substring(0, 3); //1st = index, 2nd = # of characters to include within substring
+            //string lastName = fullName.Substring(4, 4); //index at which to begin then characters to include
+
+            //Console.WriteLine(lastName);
+
             Console.ReadKey();
         }
     }
