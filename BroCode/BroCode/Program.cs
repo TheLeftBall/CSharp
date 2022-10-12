@@ -301,10 +301,10 @@ namespace MyCsProgram
         {
             Random random = new Random();
 
-            random.Next(1, 7); //will generate a radnom number between 0 and 2 billion
-                               //alternatively can set the boundary, 1st number inclusive, 2nd exclusive
+            int num = random.Next(1, 7); //will generate a radnom number between 0 and 2 billion
+                                         //alternatively can set the boundary, 1st number inclusive, 2nd exclusive
 
-
+            Console.WriteLine(num);
             Console.ReadKey();
         }
     }
