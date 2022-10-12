@@ -344,7 +344,7 @@ namespace MyCsProgram
 // __________________________________
 //Lesson 11: string methods
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -379,7 +379,7 @@ namespace MyCsProgram
             Console.ReadKey();
         }
     }
-}
+}*/
 
 // __________________________________
 //Lesson
