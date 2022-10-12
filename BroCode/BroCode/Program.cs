@@ -409,8 +409,6 @@ namespace MyCsProgram
             {
                 Console.WriteLine("You are a baby!");
             }
-
-            Console.ReadKey();
         }
     }
 }
