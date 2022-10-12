@@ -397,6 +397,18 @@ namespace MyCsProgram
             Console.WriteLine("Enter your age: ");
             int age = Convert.ToInt32(Console.ReadLine());
 
+            if (age > 18)
+            {
+                Console.WriteLine("You are an adult!");
+            }
+            else if (age == 18)
+            {
+                Console.WriteLine("You are exactly of age");
+            }
+            else if (age < 18)
+            {
+                Console.WriteLine("You are a baby!");
+            }
 
             Console.ReadKey();
         }
