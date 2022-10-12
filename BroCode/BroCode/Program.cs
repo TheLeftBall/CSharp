@@ -315,6 +315,22 @@ namespace MyCsProgram
 }*/
 
 // __________________________________
+//Lesson 10: hypotenuse calculator program 
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
+}
+
+// __________________________________
 //Lesson
 
 /*using System;
