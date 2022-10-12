@@ -269,13 +269,14 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
-            double x = 3;
+            double x = 3.14;
 
             //double a = Math.Pow(x, 3);
             //double b = Math.Sqrt(x);
-            double c = Math.Abs(x);
+            //double c = Math.Abs(x);
+            double d = Math.Round(x);
 
-            Console.WriteLine(b);
+            Console.WriteLine(x);
 
             Console.ReadKey();
         }
