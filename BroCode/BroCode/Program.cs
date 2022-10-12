@@ -366,8 +366,10 @@ namespace MyCsProgram
             //phoneNumber = phoneNumber.Replace("-", "!"); //1st old character, 2nd the character to replace with
             //Console.WriteLine(phoneNumber);
 
-            string userName = fullName.Insert(0, "@"); //inserts string at the given index value
-            Console.WriteLine(userName);
+            //string userName = fullName.Insert(0, "@"); //inserts string at the given index value
+            //Console.WriteLine(userName);
+
+            Console.WriteLine(fullName.Length);
 
             Console.ReadKey();
         }
