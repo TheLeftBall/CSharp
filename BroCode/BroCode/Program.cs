@@ -261,7 +261,7 @@ namespace MyCsProgram
 
 // __________________________________
 //Lesson 8: Math class
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -286,6 +286,28 @@ namespace MyCsProgram
             Console.ReadKey();
         }
     }
+}*/
+
+// __________________________________
+//Lesson 9: Random numbers
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random random = new Random();
+
+            random.Next(1, 7); //will generate a radnom number between 0 and 2 billion
+                               //alternatively can set the boundary, 1st number inclusive, 2nd exclusive
+
+
+            Console.ReadKey();
+        }
+    }
 }
 
 // __________________________________
@@ -293,7 +315,7 @@ namespace MyCsProgram
 
 /*using System;
 
-/namespace MyCsProgram
+namespace MyCsProgram
 {
     class Program
     {
