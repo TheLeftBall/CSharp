@@ -331,7 +331,10 @@ namespace MyCsProgram
             Console.WriteLine("Enter side B: ");
             double b = Convert.ToDouble(Console.ReadLine());
 
-            double c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
+            //double c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
+            //alternatively can write as
+            double c = Math.Sqrt((a * a) + (b * b));
+
             Console.WriteLine("The hypotenuse of the triangle is: " + c);
             Console.ReadKey();
         }
