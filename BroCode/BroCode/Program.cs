@@ -278,9 +278,10 @@ namespace MyCsProgram
             //double d = Math.Round(x);
             //double e = Math.Ceiling(x);
             //double f = Math.Floor(x);
-            //double g = Math.Max(x, y);  finds out the largest number from the ones in brackets
+            //double g = Math.Max(x, y);  //finds out the largest number from the ones in brackets
+            //double h = Math.Min(x, y);  //finds out the smallest number
 
-            Console.WriteLine(g);
+            Console.WriteLine(x);
 
             Console.ReadKey();
         }
