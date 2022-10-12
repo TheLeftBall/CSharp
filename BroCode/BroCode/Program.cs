@@ -271,9 +271,11 @@ namespace MyCsProgram
         {
             double x = 3;
 
-            double a = Math.Pow(x, 3);
+            //double a = Math.Pow(x, 3);
+            //double b = Math.Sqrt(x);
+            double c = Math.Abs(x);
 
-            Console.WriteLine(a);
+            Console.WriteLine(b);
 
             Console.ReadKey();
         }
