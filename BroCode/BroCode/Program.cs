@@ -541,13 +541,13 @@ namespace MyCsProgram
             //    Console.WriteLine("HELP IM STUCK IN AN INFINITE LOOP!");
             //}
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }*/
 
 // __________________________________
-//Lesson 
+//Lesson 16: for loops
 
 using System;
 
@@ -563,3 +563,21 @@ namespace MyCsProgram
         }
     }
 }
+
+// __________________________________
+//Lesson 
+
+/*using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
+        }
+    }
+}*/
