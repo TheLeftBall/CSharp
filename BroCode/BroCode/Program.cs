@@ -466,6 +466,8 @@ namespace MyCsProgram
                 case "Sunday":
                     Console.WriteLine("Today is Sunday");
                     break;
+                default:
+                    Console.WriteLine(day + " is not a day!");
             }
 
             Console.ReadKey();
