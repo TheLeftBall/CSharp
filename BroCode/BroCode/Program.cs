@@ -491,6 +491,9 @@ namespace MyCsProgram
             //&& == (AND)
             //|| == (OR)
 
+            Console.WriteLine("What's the temperature outside: (C)");
+            double temp = Convert.ToInt32(Console.ReadLine());
+
             Console.ReadKey();
         }
     }
