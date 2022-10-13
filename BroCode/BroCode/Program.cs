@@ -537,7 +537,7 @@ namespace MyCsProgram
             Console.WriteLine("Hello " + name);
             */
 
-            while (1 == 1)
+            while (1 == 1) //not good
             {
                 Console.WriteLine("HELP IM STUCK IN AN INFINITE LOOP!");
             }
