@@ -394,7 +394,7 @@ namespace MyCsProgram
         {
             //if statement = basic form of decision making
 
-            Console.WriteLine("Enter your age: ");
+            /*Console.WriteLine("Enter your age: ");
             int age = Convert.ToInt32(Console.ReadLine());
 
             if (age > 18)
@@ -408,6 +408,14 @@ namespace MyCsProgram
             else if (age < 18)
             {
                 Console.WriteLine("You are a baby!");
+            }*/
+
+            Console.WriteLine("Enter you name: ");
+            string name = Console.ReadLine();
+
+            if (name == "")
+            {
+
             }
 
             Console.ReadKey();
