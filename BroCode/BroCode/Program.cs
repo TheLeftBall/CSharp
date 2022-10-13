@@ -515,7 +515,7 @@ namespace MyCsProgram
 // __________________________________
 //Lesson 15: while loops
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -536,20 +536,20 @@ namespace MyCsProgram
 
             Console.WriteLine("Hello " + name);
 
-            /*while (1 == 1) //not good
-            {
-                Console.WriteLine("HELP IM STUCK IN AN INFINITE LOOP!");
-            }*/
+            //while (1 == 1) //not good
+            //{
+            //    Console.WriteLine("HELP IM STUCK IN AN INFINITE LOOP!");
+            //}
 
             Console.ReadKey();
         }
     }
-}
+}*/
 
 // __________________________________
 //Lesson 
 
-/*using System;
+using System;
 
 namespace MyCsProgram
 {
@@ -562,4 +562,4 @@ namespace MyCsProgram
             Console.ReadKey();
         }
     }
-}*/
+}
