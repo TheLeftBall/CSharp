@@ -479,7 +479,7 @@ namespace MyCsProgram
 // __________________________________
 //Lesson 14: logical operators
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -506,6 +506,24 @@ namespace MyCsProgram
             {
                 Console.WriteLine("It's too damn cold!");
             }
+
+            Console.ReadKey();
+        }
+    }
+}*/
+
+// __________________________________
+//Lesson 15: while loops
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //while loop = repeats some code while some condition remains true
 
             Console.ReadKey();
         }
