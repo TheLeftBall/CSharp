@@ -451,6 +451,21 @@ namespace MyCsProgram
                 case "Tuesday":
                     Console.WriteLine("Today is Tuesday");
                     break;
+                case "Wednsday":
+                    Console.WriteLine("Today is Wednsday");
+                    break;
+                case "Thursday":
+                    Console.WriteLine("Today is Thursday");
+                    break;
+                case "Friday":
+                    Console.WriteLine("Today is Friday");
+                    break;
+                case "Saturday":
+                    Console.WriteLine("Today is Saturday");
+                    break;
+                case "Sunday":
+                    Console.WriteLine("Today is Sunday");
+                    break;
             }
 
             Console.ReadKey();
