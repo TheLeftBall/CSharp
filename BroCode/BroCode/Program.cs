@@ -468,6 +468,7 @@ namespace MyCsProgram
                     break;
                 default:
                     Console.WriteLine(day + " is not a day!");
+                    break;
             }
 
             Console.ReadKey();
