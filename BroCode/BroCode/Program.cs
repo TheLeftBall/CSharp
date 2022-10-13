@@ -382,7 +382,7 @@ namespace MyCsProgram
 }*/
 
 // __________________________________
-//Lesson 11: if statements 
+//Lesson 12: if statements 
 
 using System;
 
@@ -409,6 +409,8 @@ namespace MyCsProgram
             {
                 Console.WriteLine("You are a baby!");
             }
+
+            Console.ReadKey();
         }
     }
 }
