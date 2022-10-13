@@ -525,7 +525,7 @@ namespace MyCsProgram
         {
             //while loop = repeats some code while some condition remains true
 
-            Console.WriteLine("Enter your name: ");
+            /*Console.WriteLine("Enter your name: ");
             string name = Console.ReadLine();
 
             while (name == "")
@@ -535,6 +535,12 @@ namespace MyCsProgram
             }
 
             Console.WriteLine("Hello " + name);
+            */
+
+            while (1 == 1)
+            {
+                Console.WriteLine("HELP IM STUCK IN AN INFINITE LOOP!");
+            }
 
             Console.ReadKey();
         }
