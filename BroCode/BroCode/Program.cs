@@ -441,7 +441,7 @@ namespace MyCsProgram
             //switch = an efficient alternative to many else if statements
 
             Console.WriteLine("What day is it today? ");
-            string day = Console.ReadLine();
+            string day = (Console.ReadLine();
 
             switch (day) //in the brackets place the variable you would like to examine
             {
