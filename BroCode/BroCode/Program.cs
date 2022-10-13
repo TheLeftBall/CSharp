@@ -413,9 +413,13 @@ namespace MyCsProgram
             Console.WriteLine("Enter you name: ");
             string name = Console.ReadLine();
 
-            if (name == "")
+            if (name != "")
             {
-
+                Console.WriteLine("Your name is: " + name);
+            }
+            else
+            {
+                Console.WriteLine("You did not enter your name!");
             }
 
             Console.ReadKey();
