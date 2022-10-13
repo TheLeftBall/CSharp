@@ -494,6 +494,19 @@ namespace MyCsProgram
             Console.WriteLine("What's the temperature outside: (C)");
             double temp = Convert.ToInt32(Console.ReadLine());
 
+            if (temp >= 25)
+            {
+                Console.WriteLine("it's too damn hot!");
+            }
+            else if (temp < 25 && temp > 10)
+            {
+                Console.WriteLine("The weather is optimal");
+            }
+            else
+            {
+                Console.WriteLine("It's too damn cold!");
+            }
+
             Console.ReadKey();
         }
     }
