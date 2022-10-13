@@ -384,7 +384,7 @@ namespace MyCsProgram
 // __________________________________
 //Lesson 12: if statements 
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -408,7 +408,7 @@ namespace MyCsProgram
             else if (age < 18)
             {
                 Console.WriteLine("You are a baby!");
-            }*/
+            }
 
             Console.WriteLine("Enter you name: ");
             string name = Console.ReadLine();
@@ -421,6 +421,24 @@ namespace MyCsProgram
             {
                 Console.WriteLine("You did not enter your name!");
             }
+
+            Console.ReadKey();
+        }
+    }
+}*/
+
+// __________________________________
+//Lesson 13: switches 
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
 
             Console.ReadKey();
         }
