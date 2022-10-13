@@ -430,7 +430,7 @@ namespace MyCsProgram
 // __________________________________
 //Lesson 13: switches 
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -474,10 +474,30 @@ namespace MyCsProgram
             Console.ReadKey();
         }
     }
+}*/
+
+// __________________________________
+//Lesson 14: logical operators
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //logical operators = can be used to check if more than 1 condition is true/false
+            //&& == (AND)
+            //|| == (OR)
+
+            Console.ReadKey();
+        }
+    }
 }
 
 // __________________________________
-//Lesson
+//Lesson 
 
 /*using System;
 
