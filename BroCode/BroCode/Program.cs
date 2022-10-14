@@ -649,7 +649,7 @@ namespace MyCsProgram
 
                 while (guess != number)
                 {
-
+                    Console.WriteLine("Guess a number between " + min + " " + max + " : ");
                 }
 
             }
