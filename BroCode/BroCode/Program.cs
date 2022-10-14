@@ -630,7 +630,11 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            Random random = new Random();
 
+            bool playAgain = true;
+
+            int min = 
 
             Console.ReadKey();
         }
