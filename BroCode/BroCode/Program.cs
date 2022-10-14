@@ -583,7 +583,7 @@ Console.ReadKey();
 //__________________________________
 //Lesson 17: nested loops
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -614,6 +614,24 @@ namespace MyCsProgram
                 }
                 Console.WriteLine(); //used to move down to the next line
             }
+            Console.ReadKey();
+        }
+    }
+}*/
+
+//__________________________________
+//Lesson 18: number guessing game
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
             Console.ReadKey();
         }
     }
