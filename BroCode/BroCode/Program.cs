@@ -661,6 +661,8 @@ namespace MyCsProgram
                     {
                         Console.WriteLine(guess + " is too low!");
                     }
+
+                    guess++;
                 }
 
             }
