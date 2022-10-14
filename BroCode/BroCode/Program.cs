@@ -606,11 +606,11 @@ namespace MyCsProgram
 
             string symbol = Console.ReadLine();
 
-            while ()
+            for (int i = 0; i < rows; i++)
             {
-                for ()
+                for (int j = 0; j < columns; j++)
                 {
-
+                    Console.Write(symbol);
                 }
             }
             Console.ReadKey();
