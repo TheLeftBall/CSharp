@@ -186,7 +186,7 @@ namespace MyCsProgram
     }
 }*/
 
-// __________________________________
+//__________________________________
 //Lesson 6: user input
 
 /*using System;
@@ -211,7 +211,7 @@ namespace MyCsProgram
     }
 }*/
 
-// __________________________________
+//__________________________________
 //Lesson 7: arithmetic
 /*using System;
 
@@ -259,7 +259,7 @@ namespace MyCsProgram
 }
 */
 
-// __________________________________
+//__________________________________
 //Lesson 8: Math class
 /*using System;
 
@@ -288,7 +288,7 @@ namespace MyCsProgram
     }
 }*/
 
-// __________________________________
+//__________________________________
 //Lesson 9: Random numbers
 
 /*using System;
@@ -314,7 +314,7 @@ namespace MyCsProgram
     }
 }*/
 
-// __________________________________
+//__________________________________
 //Lesson 10: hypotenuse calculator program 
 
 /*using System;
@@ -341,7 +341,7 @@ namespace MyCsProgram
     }
 }*/
 
-// __________________________________
+//__________________________________
 //Lesson 11: string methods
 
 /*using System;
@@ -381,7 +381,7 @@ namespace MyCsProgram
     }
 }*/
 
-// __________________________________
+//__________________________________
 //Lesson 12: if statements 
 
 /*using System;
@@ -427,7 +427,7 @@ namespace MyCsProgram
     }
 }*/
 
-// __________________________________
+//__________________________________
 //Lesson 13: switches 
 
 /*using System;
@@ -476,7 +476,7 @@ namespace MyCsProgram
     }
 }*/
 
-// __________________________________
+//__________________________________
 //Lesson 14: logical operators
 
 /*using System;
@@ -512,7 +512,7 @@ namespace MyCsProgram
     }
 }*/
 
-// __________________________________
+//__________________________________
 //Lesson 15: while loops
 
 /*using System;
@@ -546,7 +546,7 @@ namespace MyCsProgram
     }
 }*/
 
-// __________________________________
+//__________________________________
 //Lesson 16: for loops
 
 /*using System;
@@ -568,18 +568,37 @@ namespace MyCsProgram
             }
             */
 
-            /*for (int i = 10; i > 0; i--)
-            {
-                Console.WriteLine(i);
-            }
+/*for (int i = 10; i > 0; i--)
+{
+    Console.WriteLine(i);
+}
+
+Console.ReadKey();
+
+}
+}
+}
+*/
+
+//__________________________________
+//Lesson 
+
+/*using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
 
             Console.ReadKey();
-            
         }
     }
 }*/
 
-// __________________________________
+//__________________________________
 //Lesson 
 
 /*using System;
