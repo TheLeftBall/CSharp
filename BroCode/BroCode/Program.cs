@@ -646,6 +646,12 @@ namespace MyCsProgram
                 guess = 0;
                 guesses = 0;
                 number = random.Next(min, max + 1);
+
+                while (guess != number)
+                {
+
+                }
+
             }
 
             Console.ReadKey();
