@@ -612,6 +612,7 @@ namespace MyCsProgram
                 {
                     Console.Write(symbol);
                 }
+                Console.Write(symbol);
             }
             Console.ReadKey();
         }
