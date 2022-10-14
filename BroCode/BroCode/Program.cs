@@ -562,10 +562,16 @@ namespace MyCsProgram
             //for(int i = 0; i < 10; i++) //first condition indicates where to start, second condition indicates when to stop
             //third condition indicates how much to increment or decrement by
 
-            for (int i = 0; i <= 10; i++) //could also be i+=1
+            /*for (int i = 0; i <= 10; i++) //could also be i+=1
             {
                 Console.WriteLine(i);
-            } 
+            }
+            */
+
+            for (int i = 10; i > 0; i--)
+            {
+                Console.WriteLine(i);
+            }
 
             Console.ReadKey();
         }
