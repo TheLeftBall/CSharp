@@ -557,7 +557,12 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //for loop = repeats a FINITE amount of times
 
+            //for(int i = 0; i < 10; i++) //first condition indicates where to start, second condition indicates when to stop
+                                          //third condition indicates how much to increment or decrement by
+
+            for (int i = 0; i < 10; ) 
 
             Console.ReadKey();
         }
