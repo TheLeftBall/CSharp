@@ -634,7 +634,7 @@ namespace MyCsProgram
 
             bool playAgain = true;
 
-            int min = 
+            int min = 1;
 
             Console.ReadKey();
         }
