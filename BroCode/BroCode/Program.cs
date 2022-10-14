@@ -581,9 +581,9 @@ Console.ReadKey();
 */
 
 //__________________________________
-//Lesson 
+//Lesson 17: nested loops
 
-/*using System;
+using System;
 
 namespace MyCsProgram
 {
@@ -591,12 +591,32 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //nested loops = loops inside other loops
+            //               User vary. used a lot in sorting algorithms.
 
+            Console.WriteLine("How many rows?: ");
 
+            int rows = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("How many columns?: ");
+
+            int columns = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("What symbol?: ");
+
+            string symbol = Console.ReadLine();
+
+            while ()
+            {
+                for ()
+                {
+
+                }
+            }
             Console.ReadKey();
         }
     }
-}*/
+}
 
 //__________________________________
 //Lesson 
