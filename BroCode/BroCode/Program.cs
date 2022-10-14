@@ -549,7 +549,7 @@ namespace MyCsProgram
 // __________________________________
 //Lesson 16: for loops
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -568,15 +568,16 @@ namespace MyCsProgram
             }
             */
 
-            for (int i = 10; i > 0; i--)
+            /*for (int i = 10; i > 0; i--)
             {
                 Console.WriteLine(i);
             }
 
             Console.ReadKey();
+            
         }
     }
-}
+}*/
 
 // __________________________________
 //Lesson 
