@@ -823,7 +823,15 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            double num1 = 0;
+            double num2 = 0;
+            double result = 0;
+            string separationLine = "------------------";
 
+
+            Console.WriteLine(separationLine);
+            Console.WriteLine("Calculator Program");
+            Console.WriteLine(separationLine);
 
             Console.ReadKey();
         }
