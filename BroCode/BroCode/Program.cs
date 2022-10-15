@@ -859,6 +859,8 @@ namespace MyCsProgram
                     break;
             }
 
+            Console.WriteLine("The result is: " + result);
+
             Console.ReadKey();
         }
     }
