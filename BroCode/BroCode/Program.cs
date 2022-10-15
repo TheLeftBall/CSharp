@@ -651,7 +651,7 @@ namespace MyCsProgram
 
                 while (guess != number)
                 {
-                    Console.WriteLine("Guess a number between " + min + " " + max + " : ");
+                    Console.WriteLine("Guess a number between " + min + " and " + max + " : ");
                     guess = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Guess: " + guess);
 
@@ -664,7 +664,7 @@ namespace MyCsProgram
                         Console.WriteLine(guess + " is too low!");
                     }
 
-                    guess++;
+                    guesses++;
                 }
                 Console.WriteLine("Number :" + number);
                 Console.WriteLine("You win!");
