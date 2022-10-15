@@ -714,11 +714,13 @@ namespace MyCsProgram
             bool playAgain = true;
             string player;
             string computer;
+            string answer;
 
             while (playAgain)
             {
                 player = "";
                 computer = "";
+                answer = "";
                 while(player != "ROCK" && player != "PAPER" && player != "SCISSORS")
                 {
                     Console.WriteLine("Enter ROCK, PAPER, or SCISSORS: ");
@@ -788,6 +790,18 @@ namespace MyCsProgram
                             Console.WriteLine("You win");
                         }
                         break;
+                }
+                Console.WriteLine("Would you like to play again? (Y/N): ");
+                answer = Console.ReadLine();
+                answer = answer.ToUpper();
+
+                if (answer == "Y")
+                {
+                    playAgain = true;
+                }
+                else
+                {
+                    playAgain = false;
                 }
             }
 
