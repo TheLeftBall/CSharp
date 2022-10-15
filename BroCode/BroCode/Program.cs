@@ -669,7 +669,29 @@ namespace MyCsProgram
                 Console.WriteLine("Number :" + number);
                 Console.WriteLine("You win!");
                 Console.WriteLine("Guesses + " + guesses);
+
+                Console.WriteLine("Would you like to play again? (Y/N): ");
+                response = Console.ReadLine();
+                response = response.ToUpper();
+
+                while (response != "Y" || response != "N")
+                {
+                    if (response == "Y")
+                    {
+                        playAgain = true;
+                    }
+                    else if (response == "N")
+                    {
+                        playAgain = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Enter a vaild answer");
+                    }
+                }
             }
+
+            Console.WriteLine("Tahnks for playing");
 
             Console.ReadKey();
         }
