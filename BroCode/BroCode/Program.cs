@@ -640,12 +640,14 @@ namespace MyCsProgram
             int guess;
             int number;
             int guesses;
+            string response;
 
             while (playAgain)
             {
                 guess = 0;
                 guesses = 0;
                 number = random.Next(min, max + 1);
+                response = "";
 
                 while (guess != number)
                 {
