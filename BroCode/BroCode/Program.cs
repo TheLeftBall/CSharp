@@ -702,7 +702,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 19: rock-paper-scissors game
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -806,6 +806,24 @@ namespace MyCsProgram
             }
 
             Console.WriteLine("Thanks for playing");
+
+            Console.ReadKey();
+        }
+    }
+}
+*/
+//__________________________________
+//Lesson 20: calculator program
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
 
             Console.ReadKey();
         }
