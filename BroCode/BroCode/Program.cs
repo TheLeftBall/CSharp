@@ -668,7 +668,7 @@ namespace MyCsProgram
                 }
                 Console.WriteLine("Number :" + number);
                 Console.WriteLine("You win!");
-                Console.WriteLine("Guesses + " + guesses);
+                Console.WriteLine("You guessed: " + guesses + " times");
 
                 Console.WriteLine("Would you like to play again? (Y/N): ");
                 response = Console.ReadLine();
