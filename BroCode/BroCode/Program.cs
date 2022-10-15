@@ -823,45 +823,51 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
-            double num1 = 0;
-            double num2 = 0;
-            double result = 0;
-            string symbol = "";
-            string separationLine = "------------------";
-
-
-            Console.WriteLine(separationLine);
-            Console.WriteLine("Calculator Program");
-            Console.WriteLine(separationLine);
-
-            Console.WriteLine("Enter the 1st number: ");
-            num1 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Enter the 2nd number: ");
-            num2 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Enter the operator symbol: ");
-            symbol = Console.ReadLine();
-
-            switch (symbol)
+            do
             {
-                case "+":
-                    result = num1 + num2;
-                    break;
-                case "-":
-                    result = num1 - num2;
-                    break;
-                case "/":
-                    result = num1 / num2;
-                    break;
-                case "*":
-                    result = num1 * num2;
-                    break;
-            }
+                double num1 = 0;
+                double num2 = 0;
+                double result = 0;
+                string symbol = "";
+                string separationLine = "------------------";
 
-            Console.WriteLine("The result is: " + result);
 
-            Console.ReadKey();
+                Console.WriteLine(separationLine);
+                Console.WriteLine("Calculator Program");
+                Console.WriteLine(separationLine);
+
+                Console.WriteLine("Enter the 1st number: ");
+                num1 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Enter the 2nd number: ");
+                num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Enter the operator symbol: ");
+                symbol = Console.ReadLine();
+
+                switch (symbol)
+                {
+                    case "+":
+                        result = num1 + num2;
+                        break;
+                    case "-":
+                        result = num1 - num2;
+                        break;
+                    case "/":
+                        result = num1 / num2;
+                        break;
+                    case "*":
+                        result = num1 * num2;
+                        break;
+                }
+
+                Console.WriteLine("The result is: " + result);
+                Console.WriteLine("Would you like to continue? (Y/N)");
+
+                Console.ReadKey();
+            } while (Console.ReadLine().ToUpper() == "Y");
+
+            Console.WriteLine("Bye!");
         }
     }
 }
