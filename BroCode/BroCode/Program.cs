@@ -749,7 +749,15 @@ namespace MyCsProgram
                     case "ROCK":
                         if (computer == "ROCK")
                         {
-
+                            Console.WriteLine("It's a draw");
+                        }
+                        else if (computer == "PAPER")
+                        {
+                            Console.WriteLine("Computer wins");
+                        }
+                        else if (computer == "SCISSORS")
+                        {
+                            Console.WriteLine("Player wins");
                         }
                         break;
                     case "PAPER":
