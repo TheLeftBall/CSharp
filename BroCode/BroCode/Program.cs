@@ -726,11 +726,23 @@ namespace MyCsProgram
                     player = player.ToUpper();
                 }
 
-                int randomNum = random.Next(1, 4);
-                switch ()
+                //int randomNum = random.Next(1, 4);
+                //alternatively can place the random insde the case
+                switch (random.Next(1, 4))
                 {
-
+                    case 1:
+                        computer = "ROCK";
+                        break;
+                    case 2:
+                        computer = "PAPER";
+                        break;
+                    case 3:
+                        computer = "SCISSORS";
+                        break;
                 }
+
+                Console.WriteLine("Player :" + player);
+                Console.WriteLine("Computer :" + computer);
             }
 
 
