@@ -826,12 +826,34 @@ namespace MyCsProgram
             double num1 = 0;
             double num2 = 0;
             double result = 0;
+            string symbol = "";
             string separationLine = "------------------";
 
 
             Console.WriteLine(separationLine);
             Console.WriteLine("Calculator Program");
             Console.WriteLine(separationLine);
+
+            Console.WriteLine("Enter the 1st number: ");
+            num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter the 2nd number: ");
+            num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter the operator symbol: ");
+            symbol = Console.ReadLine();
+
+            switch (symbol)
+            {
+                case "+":
+                    break;
+                case "-":
+                    break;
+                case "/":
+                    break;
+                case "*":
+                    break;
+            }
 
             Console.ReadKey();
         }
