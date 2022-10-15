@@ -805,6 +805,8 @@ namespace MyCsProgram
                 }
             }
 
+            Console.WriteLine("Thanks for playing");
+
             Console.ReadKey();
         }
     }
