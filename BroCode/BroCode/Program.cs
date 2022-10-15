@@ -622,7 +622,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 18: number guessing game
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -692,6 +692,25 @@ namespace MyCsProgram
             }
 
             Console.WriteLine("Tahnks for playing");
+
+            Console.ReadKey();
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 19: rock-paper-scissors game
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
 
             Console.ReadKey();
         }
