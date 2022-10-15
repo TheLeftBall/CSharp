@@ -664,7 +664,9 @@ namespace MyCsProgram
 
                     guess++;
                 }
-
+                Console.WriteLine("Number :" + number);
+                Console.WriteLine("You win!");
+                Console.WriteLine("Guesses + " + guesses);
             }
 
             Console.ReadKey();
