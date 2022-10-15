@@ -724,8 +724,12 @@ namespace MyCsProgram
                     Console.WriteLine("Enter ROCK, PAPER, or SCISSORS: ");
                     player = Console.ReadLine();
                     player = player.ToUpper();
+                }
 
-                    Console.WriteLine("");
+                int randomNum = random.Next(1, 4);
+                switch ()
+                {
+
                 }
             }
 
