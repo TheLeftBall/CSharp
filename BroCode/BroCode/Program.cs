@@ -753,23 +753,39 @@ namespace MyCsProgram
                         }
                         else if (computer == "PAPER")
                         {
-                            Console.WriteLine("Computer wins");
+                            Console.WriteLine("You lose");
                         }
-                        else if (computer == "SCISSORS")
+                        else
                         {
-                            Console.WriteLine("Player wins");
+                            Console.WriteLine("You win");
                         }
                         break;
                     case "PAPER":
                         if (computer == "PAPER")
                         {
-
+                            Console.WriteLine("It's a draw");
+                        }
+                        else if (computer == "ROCK")
+                        {
+                            Console.WriteLine("You win");
+                        }
+                        else
+                        {
+                            Console.WriteLine("You lose");
                         }
                         break;
                     case "SCISSORS":
                         if (computer == "SCISSORS")
                         {
-
+                            Console.WriteLine("It's a draw");
+                        }
+                        else if (computer == "PAPER")
+                        {
+                            Console.WriteLine("You lose");
+                        }
+                        else
+                        {
+                            Console.WriteLine("You win");
                         }
                         break;
                 }
