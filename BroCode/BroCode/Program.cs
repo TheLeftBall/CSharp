@@ -815,7 +815,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 20: calculator program
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -868,6 +868,24 @@ namespace MyCsProgram
             } while (Console.ReadLine().ToUpper() == "Y");
 
             Console.WriteLine("Bye!");
+        }
+    }
+}
+*/
+//__________________________________
+//Lesson 21: arrays
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
         }
     }
 }
