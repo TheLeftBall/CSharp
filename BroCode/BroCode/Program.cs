@@ -743,8 +743,29 @@ namespace MyCsProgram
 
                 Console.WriteLine("Player :" + player);
                 Console.WriteLine("Computer :" + computer);
-            }
 
+                switch (player)
+                {
+                    case "ROCK":
+                        if (computer == "ROCK")
+                        {
+
+                        }
+                        break;
+                    case "PAPER":
+                        if (computer == "PAPER")
+                        {
+
+                        }
+                        break;
+                    case "SCISSORS":
+                        if (computer == "SCISSORS")
+                        {
+
+                        }
+                        break;
+                }
+            }
 
             Console.ReadKey();
         }
