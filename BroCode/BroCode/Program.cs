@@ -1014,7 +1014,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 25: method overloading
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1028,7 +1028,7 @@ namespace MyCsProgram
 
             double total;
 
-            total = Multiply(1, 2);
+            total = Multiply(1, 2, 4); //has three parameters;
 
             Console.WriteLine(total);
 
@@ -1038,6 +1038,47 @@ namespace MyCsProgram
         static double Multiply(double a, double b)
         {
             return a * b;
+        }
+
+        static double Multiply(double a, double b, double c)
+        {
+            return a * b * c;
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 26: params keyword
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //params keyword = a method parameter that takes a variable number of arguments
+            //                 the parameter type must be a single - dimensional array
+
+            double total = Checkout(3.99, 5.57, 15); //can add as many arameters as needed
+
+            Console.WriteLine(total);
+
+            Console.ReadKey();
+        }
+
+        static double Checkout(params double[] prices)
+        {
+            double total = 0;
+
+            foreach (double price in prices)
+            {
+                total += price;
+            }
+
+            return total;
         }
     }
 }
