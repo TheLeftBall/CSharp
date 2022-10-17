@@ -973,7 +973,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 24: return keywords
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1001,11 +1001,33 @@ namespace MyCsProgram
 
         static int Add(int num1, int num2)
         {
-            int result = num1 + num2;
-            return result;
+            //int result = num1 + num2; 
+            //return result;
+
+            //alternatively could write
+            return num1 + num2;
         }
     }
 }
+*/
+
+//__________________________________
+//Lesson 25: 
+
+/*using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
+        }
+    }
+}*/
 
 //__________________________________
 //Lesson 
