@@ -1236,8 +1236,13 @@ namespace MyCsProgram
                                      { "Corvette", "Camaro", "Silverado" },
                                      { "Corolla", "Camry", "Rav4" }};
 
-            parkingLot[0,2] = //[0,2] = first number is the index of the array,
-                              //second number is the index of the element within the selected array
+            parkingLot[0, 2] = "Fusion"; //[0,2] = first number is the index of the array,
+                                         //second number is the index of the element within the selected array
+
+            foreach (string car in parkingLot)
+            {
+                Console.WriteLine(car);
+            }
 
             Console.ReadKey();
         }
