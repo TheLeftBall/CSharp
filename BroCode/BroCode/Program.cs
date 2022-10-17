@@ -982,19 +982,27 @@ namespace MyCsProgram
         static void Main(string[] args)
         {
             //return = returns data back to the place where the method is invoked
+            int num1;
+            int num2;
+            int result;
 
-            int num1 = 0;
-            int num2 = 0;
-            int result = 0;
+            Console.WriteLine("Enter 1st number: ");
+            num1 = Convert.ToInt32(Console.ReadLine());
 
-            Multiply(num1, num2, result);
+            Console.WriteLine("Enter 2nd number: ");
+            num2 = Convert.ToInt32(Console.ReadLine());
+
+            result = Add(num1, num2);
+
+            Console.WriteLine("The result is " + result);
 
             Console.ReadKey();
         }
 
-        static void Multiply(int num1, int num2, int result)
+        static int Add(int num1, int num2)
         {
-            result = num1 + num2;
+            int result = num1 + num2;
+            return result;
         }
     }
 }
