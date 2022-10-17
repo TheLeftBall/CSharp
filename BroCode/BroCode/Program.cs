@@ -1145,7 +1145,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 28: conditional operator
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1156,18 +1156,26 @@ namespace MyCsProgram
             //conditional operator = used in a conditional assignment if a condition is true/false
 
             //(condition) ? x : y
+            //(condition) ? = is this condition is true/false?
+            //x = if true return x
+            //y = if false return y
 
             double temperature = 25;
             string message;
 
-            if (temperature > 15)
-            {
-                message = "It's warm outside";
-            }
-            else
-            {
-                message = "It's cold outside";
-            }
+            //if (temperature > 15)
+            //{
+            //    message = "It's warm outside";
+            //}
+            //else
+            //{
+            //    message = "It's cold outside";
+            //}
+
+            Console.WriteLine(message);
+            
+
+            message = (temperature > 15) ? "It's warm outside" : "It's cold outside";
 
             Console.WriteLine(message);
 
@@ -1175,7 +1183,7 @@ namespace MyCsProgram
         }
     }
 }
-
+*/
 //__________________________________
 //Lesson 
 
