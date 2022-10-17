@@ -922,6 +922,13 @@ namespace MyCsProgram
         {
             //foreach loop = a simplified way to itegrate over an array, but it's less flexible
 
+            string[] cars = { "BMW", "Mustang", "Corvette" };
+
+            foreach (string car in cars) //for every element in array iterate forward by 1, not flexible
+            {
+                Console.WriteLine(car);
+            }
+
             Console.ReadKey();
         }
     }
