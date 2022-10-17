@@ -1051,7 +1051,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 26: params keyword
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1079,6 +1079,31 @@ namespace MyCsProgram
             }
 
             return total;
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 27: exception handling 
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //exceptions = errors that occur during execution
+
+            //try = try some code that is considered dangerous
+            //catch = catches and handles exceptions when they occur
+            //finally = always executes regardless if exception is caught or not
+
+
+
+            Console.ReadKey();
         }
     }
 }
