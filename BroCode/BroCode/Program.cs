@@ -1012,9 +1012,9 @@ namespace MyCsProgram
 */
 
 //__________________________________
-//Lesson 25: 
+//Lesson 25: method overloading
 
-/*using System;
+using System;
 
 namespace MyCsProgram
 {
@@ -1022,12 +1022,25 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //method overloading = methods share the same name, but different parameters
+            //                     name + parameters = signature
+            //                     methods must have a unique signature
 
+            double total;
+
+            total = Multiply(1, 2);
+
+            Console.WriteLine(total);
 
             Console.ReadKey();
         }
+
+        static double Multiply(double a, double b)
+        {
+            return a * b;
+        }
     }
-}*/
+}
 
 //__________________________________
 //Lesson 
