@@ -1204,8 +1204,11 @@ namespace MyCsProgram
             string lastName = "Boytsov";
             int age = 23;
 
-            Console.WriteLine("Hey my name is " + firstName + " " + lastName);
-            Console.WriteLine("I am " + age + " years old");
+            //Console.WriteLine("Hey my name is " + firstName + " " + lastName);
+            //Console.WriteLine("I am " + age + " years old");
+
+            Console.WriteLine($"Hey my name is {firstName} {lastName}");
+            Console.WriteLine($"I am {age} years old");
 
             Console.ReadKey();
         }
