@@ -885,8 +885,9 @@ namespace MyCsProgram
         {
             //array = a variable that can store multiple values. fixed size
 
-            string[] cars = { "BMW" };
+            string[] cars = { "BMW", "Mustang", "Corvette" };
 
+            Console.WriteLine(cars[0]); //to print the value withing the array,indicate the index in the brackets
 
             Console.ReadKey();
         }
