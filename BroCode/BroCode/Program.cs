@@ -1219,7 +1219,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 30: multidimensional arrays
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1239,16 +1239,24 @@ namespace MyCsProgram
             parkingLot[0, 2] = "Fusion"; //[0,2] = first number is the index of the array,
                                          //second number is the index of the element within the selected array
 
-            foreach (string car in parkingLot)
-            {
-                Console.WriteLine(car);
-            }
+            //foreach (string car in parkingLot)
+            //{
+            //    Console.WriteLine(car);
+            //}
 
+            for (int i = 0; i < parkingLot.GetLength(0); i++)
+            {
+                for (int j = 0; j < parkingLot.GetLength(1); j++)
+                {
+                    Console.WriteLine(parkingLot[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
             Console.ReadKey();
         }
     }
 }
-
+*/
 //__________________________________
 //Lesson 
 
