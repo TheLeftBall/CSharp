@@ -1131,6 +1131,10 @@ namespace MyCsProgram
             {
                 Console.WriteLine("Something went wrong");
             }
+            finally
+            {
+                Console.WriteLine("Tahnks for visiting");
+            }
 
             Console.ReadKey();
         }
