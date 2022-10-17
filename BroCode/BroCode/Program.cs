@@ -1188,7 +1188,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 29: string interpolation
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1210,6 +1210,32 @@ namespace MyCsProgram
             Console.WriteLine($"Hey my name is {firstName} {lastName}");
             Console.WriteLine($"I am {age} years old"); //{age, 10} 10 allocates ten spaces before the first value
                                                         //{age, -10} does the opposite
+            Console.ReadKey();
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 30: multidimensional arrays
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //multidimensional arrays = array of arrays
+            string[] ford = { "Mustang", "F-150", "Explorer" };
+            string[] chevy = { "Corvette", "Camaro", "Silverado" };
+            string[] toyota = { "Corolla", "Camry", "Rav4" };
+
+            string[,] parkingLot = { { "Mustang", "F-150", "Explorer" } ,
+                                     { "Corvette", "Camaro", "Silverado" },
+                                     { "Corolla", "Camry", "Rav4" }};
+
             Console.ReadKey();
         }
     }
