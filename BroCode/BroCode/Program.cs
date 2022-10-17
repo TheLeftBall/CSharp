@@ -1196,6 +1196,14 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //string interpolation = allows us to insert variables into a string literal
+            //                       precede a string literal with $
+            //                       {} are placeholders
+
+            string firstName = "Ed";
+            string lastName = "Boytsov";
+            int age = 23;
+
 
 
             Console.ReadKey();
