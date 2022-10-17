@@ -887,6 +887,9 @@ namespace MyCsProgram
 
             string[] cars = { "BMW", "Mustang", "Corvette" };
 
+            cars[0] = "Tesla"; //if need to update the name of array
+            //arrays cannot be added onto, fixed size
+
             Console.WriteLine(cars[0]); //to print the value withing the array,indicate the index in the brackets
 
             Console.ReadKey();
