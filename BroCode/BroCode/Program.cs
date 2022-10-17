@@ -1208,7 +1208,7 @@ namespace MyCsProgram
             //Console.WriteLine("I am " + age + " years old");
 
             Console.WriteLine($"Hey my name is {firstName} {lastName}");
-            Console.WriteLine($"I am {age} years old");
+            Console.WriteLine($"I am {age} years old"); //{age, 10} 10 allocates ten spaces after the first value
 
             Console.ReadKey();
         }
