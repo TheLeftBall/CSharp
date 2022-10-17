@@ -1105,15 +1105,22 @@ namespace MyCsProgram
             double y;
             double result;
 
-            Console.WriteLine("Enter 1st number: ");
-            x = Convert.ToDouble(Console.ReadLine());
+            try
+            {
+                Console.WriteLine("Enter 1st number: ");
+                x = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Enter 2nd number: ");
-            y = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Enter 2nd number: ");
+                y = Convert.ToDouble(Console.ReadLine());
 
-            result = x / y;
+                result = x / y;
 
-            Console.WriteLine("result :" + result );
+                Console.WriteLine("result :" + result);
+            }
+            catch(FormatException e)
+            {
+                Console.WriteLine("Only write numbers you numpty");
+            }
 
             Console.ReadKey();
         }
