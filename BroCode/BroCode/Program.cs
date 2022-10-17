@@ -1117,9 +1117,13 @@ namespace MyCsProgram
 
                 Console.WriteLine("result :" + result);
             }
-            catch(FormatException e)
+            catch (FormatException e)
             {
-                Console.WriteLine("Only write numbers you numpty");
+                Console.WriteLine("Only write numbers you numpty.");
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("You can't divide by 0 you silly you.");
             }
 
             Console.ReadKey();
