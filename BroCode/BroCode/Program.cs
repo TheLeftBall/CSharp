@@ -885,7 +885,10 @@ namespace MyCsProgram
         {
             //array = a variable that can store multiple values. fixed size
 
-            string[] cars = { "BMW", "Mustang", "Corvette" };
+            string[] cars = new string[4]; //arrays have fixed sizes, if unsure about the size can make more
+                                           //in case, the unused index will remain empty, can be assigned later
+
+            //string[] cars = { "BMW", "Mustang", "Corvette" };
 
             cars[0] = "Tesla"; //if need to update the name of array
             //arrays cannot be added onto, fixed size
