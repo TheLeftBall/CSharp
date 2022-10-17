@@ -890,9 +890,9 @@ namespace MyCsProgram
             cars[0] = "Tesla"; //if need to update the name of array
             //arrays cannot be added onto, fixed size
 
-            for (int i = 0; i < cars.; i++)
+            for (int i = 0; i < cars.Length; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(cars[i]); //array[i] = prints out the array values; i prints out the array indexes
             }
 
             //Console.WriteLine(cars[0]); //to print the value withing the array,indicate the index in the brackets
