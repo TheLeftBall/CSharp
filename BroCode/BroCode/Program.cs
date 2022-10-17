@@ -950,16 +950,17 @@ namespace MyCsProgram
             //benefit = let's us reuse code without writing it multiple times
 
             string name = "Ed";
+            int age = 23;
 
-            HappyBirthday(name);
+            HappyBirthday(name, age);
 
             Console.ReadKey();
         }
 
-        static void HappyBirthday(string name)
+        static void HappyBirthday(string name, int age)
         {
             Console.WriteLine("Happy birthday to you");
-            Console.WriteLine("Happy birthday to you");
+            Console.WriteLine("Happy " + age + " to you");
             Console.WriteLine("Happy birthday dear" + name);
             Console.WriteLine("Happy birthday");
             Console.WriteLine("Happy birthday");
