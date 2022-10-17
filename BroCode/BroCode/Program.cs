@@ -559,7 +559,7 @@ namespace MyCsProgram
         {
             //for loop = repeats a FINITE amount of times
 
-            //for(int i = 0; i < 10; i++) //first condition indicates where to start, second condition indicates when to stop
+            //for(int i = 0; i < 10; i++) //first condition indicates where to start, second condition indicates the limitation
             //third condition indicates how much to increment or decrement by
 
             /*for (int i = 0; i <= 10; i++) //could also be i+=1
@@ -890,7 +890,12 @@ namespace MyCsProgram
             cars[0] = "Tesla"; //if need to update the name of array
             //arrays cannot be added onto, fixed size
 
-            Console.WriteLine(cars[0]); //to print the value withing the array,indicate the index in the brackets
+            for (int i = 0; i < cars.; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            //Console.WriteLine(cars[0]); //to print the value withing the array,indicate the index in the brackets
 
             Console.ReadKey();
         }
