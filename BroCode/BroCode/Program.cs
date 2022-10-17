@@ -1184,6 +1184,25 @@ namespace MyCsProgram
     }
 }
 */
+
+//__________________________________
+//Lesson 29: string interpolation
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
+        }
+    }
+}
+
 //__________________________________
 //Lesson 
 
