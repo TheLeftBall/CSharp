@@ -1101,17 +1101,17 @@ namespace MyCsProgram
             //catch = catches and handles exceptions when they occur
             //finally = always executes regardless if exception is caught or not
 
-            double x;
-            double y;
+            int x;
+            int y;
             double result;
 
             try
             {
                 Console.WriteLine("Enter 1st number: ");
-                x = Convert.ToDouble(Console.ReadLine());
+                x = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine("Enter 2nd number: ");
-                y = Convert.ToDouble(Console.ReadLine());
+                y = Convert.ToInt32(Console.ReadLine());
 
                 result = x / y;
 
@@ -1124,6 +1124,10 @@ namespace MyCsProgram
             catch (DivideByZeroException e)
             {
                 Console.WriteLine("You can't divide by 0 you silly you.");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Something went wrong");
             }
 
             Console.ReadKey();
