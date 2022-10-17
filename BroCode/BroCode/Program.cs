@@ -912,7 +912,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 22: foreach loop
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -928,6 +928,26 @@ namespace MyCsProgram
             {
                 Console.WriteLine(car);
             }
+
+            Console.ReadKey();
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 23: 
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //method = performs a section of code, whenever it's called/invoked (same thing)
+            //benefit = let's us reuse code without writing it multiple times
 
             Console.ReadKey();
         }
