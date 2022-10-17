@@ -1087,7 +1087,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 27: exception handling 
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1135,6 +1135,25 @@ namespace MyCsProgram
             {
                 Console.WriteLine("Tahnks for visiting");
             }
+
+            Console.ReadKey();
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 28: conditional operator
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
 
             Console.ReadKey();
         }
