@@ -1117,6 +1117,7 @@ namespace MyCsProgram
 
                 Console.WriteLine("result :" + result);
             }
+            //catch specific exceptions first
             catch (FormatException e)
             {
                 Console.WriteLine("Only write numbers you numpty.");
@@ -1125,6 +1126,7 @@ namespace MyCsProgram
             {
                 Console.WriteLine("You can't divide by 0 you silly you.");
             }
+            //catchall at the end
             catch (Exception e)
             {
                 Console.WriteLine("Something went wrong");
