@@ -1069,7 +1069,7 @@ namespace MyCsProgram
             Console.ReadKey();
         }
 
-        static double Checkout(params double[] prices)
+        static double Checkout(params double[] prices) //truns the return keyword into an array
         {
             double total = 0;
 
