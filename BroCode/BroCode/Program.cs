@@ -875,7 +875,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 21: arrays
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -902,6 +902,25 @@ namespace MyCsProgram
             }
 
             //Console.WriteLine(cars[0]); //to print the value withing the array,indicate the index in the brackets
+
+            Console.ReadKey();
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 22: foreach loop
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //foreach loop = a simplified way to itegrate over an array, but it's less flexible
 
             Console.ReadKey();
         }
