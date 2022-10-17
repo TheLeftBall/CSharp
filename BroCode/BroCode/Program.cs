@@ -883,6 +883,9 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //array = a variable that can store multiple values. fixed size
+
+            string[] cars = { "BMW" };
 
 
             Console.ReadKey();
