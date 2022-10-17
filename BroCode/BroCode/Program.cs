@@ -891,7 +891,10 @@ namespace MyCsProgram
             //string[] cars = { "BMW", "Mustang", "Corvette" };
 
             cars[0] = "Tesla"; //if need to update the name of array
-            //arrays cannot be added onto, fixed size
+                               //arrays cannot be added onto, fixed size
+            cars[1] = "Corvette";
+            cars[2] = "BMW";
+            cars[3] = "Ranger";
 
             for (int i = 0; i < cars.Length; i++)
             {
