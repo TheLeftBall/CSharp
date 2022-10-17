@@ -938,7 +938,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 23: 
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -965,6 +965,36 @@ namespace MyCsProgram
             Console.WriteLine("Happy birthday");
             Console.WriteLine("Happy birthday");
             Console.WriteLine("Happy birthday to you");
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //return = returns data back to the place where the method is invoked
+
+            int num1 = 0;
+            int num2 = 0;
+            int result = 0;
+
+            Multiply(num1, num2, result);
+
+            Console.ReadKey();
+        }
+
+        static void Multiply(int num1, int num2, int result)
+        {
+            result = num1 + num2;
         }
     }
 }
