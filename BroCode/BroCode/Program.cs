@@ -1153,7 +1153,23 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //conditional operator = used in a conditional assignment if a condition is true/false
 
+            //(condition) ? x : y
+
+            double temperature = 25;
+            string message;
+
+            if (temperature > 15)
+            {
+                message = "It's warm outside";
+            }
+            else
+            {
+                message = "It's cold outside";
+            }
+
+            Console.WriteLine(message);
 
             Console.ReadKey();
         }
