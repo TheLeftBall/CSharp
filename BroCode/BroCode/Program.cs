@@ -949,16 +949,18 @@ namespace MyCsProgram
             //method = performs a section of code, whenever it's called/invoked (same thing)
             //benefit = let's us reuse code without writing it multiple times
 
-            HappyBirthday();
+            string name = "Ed";
+
+            HappyBirthday(name);
 
             Console.ReadKey();
         }
 
-        static void HappyBirthday()
+        static void HappyBirthday(string name)
         {
             Console.WriteLine("Happy birthday to you");
             Console.WriteLine("Happy birthday to you");
-            Console.WriteLine("Happy birthday dear You");
+            Console.WriteLine("Happy birthday dear" + name);
             Console.WriteLine("Happy birthday");
             Console.WriteLine("Happy birthday");
             Console.WriteLine("Happy birthday to you");
