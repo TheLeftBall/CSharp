@@ -1368,6 +1368,7 @@ namespace MyCsProgram
             //              same name as the class name
             //              can be used to assign arguments to fields when creating an object 
 
+            /*
             Human human1 = new Human("Rick", 65); //now parameters need to be passed
             Human human2 = new Human("Morty", 14); //works the same as in the last lesson
                                                    //no need to define the values manually
@@ -1384,12 +1385,13 @@ namespace MyCsProgram
 
             human2.Eat();
             human2.Sleep();
+            */
 
             Console.ReadKey();
         }
     }
 
-    class Human
+    /*class Human
     {
         public string name;
         public int age;
@@ -1409,7 +1411,7 @@ namespace MyCsProgram
         {
             Console.WriteLine($"{name} is sleeping");
         }
-    }
+    }*/
 }
 
 //__________________________________
