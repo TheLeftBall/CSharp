@@ -1480,6 +1480,8 @@ namespace MyCsProgram
             car2.Stop();
             car3.Stop();
 
+            Car.StartRace(); //applies to all instances of the car, rather than idividually
+
             Console.ReadKey();
         }
     }
