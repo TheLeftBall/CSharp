@@ -1315,7 +1315,13 @@ namespace MyCsProgram
             //         a class can be used as a blueprint to create objects (OOP)
             //         objects can have fields and methods (characteristics & actions)
 
+            Human human1 = new Human();
 
+            human1.name = "Rick";
+            human1.age = 65;
+
+            human1.Eat();
+            human1.Sleep();
 
             Console.ReadKey();
         }
