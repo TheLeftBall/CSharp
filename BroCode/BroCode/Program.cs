@@ -1457,7 +1457,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 34: static
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1467,6 +1467,7 @@ namespace MyCsProgram
         {
             //static = modifier to declare a static member, which belongs to the class itself
             //         rather than to any object
+            //         can be applied to a field, method or class itself
 
             Car car1 = new Car("Ford", "Mustang", "red", 2022);
             Car car2 = new Car("Audi", "R6", "black", 2018);
@@ -1518,6 +1519,27 @@ namespace MyCsProgram
         public static void StartRace()
         {
             Console.WriteLine("The race has began");
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 35: overloaded constructors
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //overloaded constructors = technique to create multiple constructors,
+            //                          with a different set of parameters
+            //                          name + parameters = signature
+
+            Console.ReadKey();
         }
     }
 }
