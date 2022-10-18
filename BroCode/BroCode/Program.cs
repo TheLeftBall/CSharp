@@ -1315,7 +1315,7 @@ namespace MyCsProgram
             //         a class can be used as a blueprint to create objects (OOP)
             //         objects can have fields and methods (characteristics & actions)
 
-            Human human1 = new Human();
+            Human human1 = new Human(); //human1 is defined as a new instance of Human() therefore Human human1 = new Human()
             Human human2 = new Human();
 
             human1.name = "Rick";
