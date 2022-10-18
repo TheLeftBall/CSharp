@@ -1512,6 +1512,11 @@ namespace MyCsProgram
         {
             Console.WriteLine($"You stop the {year} {make} {model}");
         }
+
+        public static void StartRace()
+        {
+            Console.WriteLine("The race has began");
+        }
     }
 }
 
