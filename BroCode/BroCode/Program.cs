@@ -1303,7 +1303,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 32: objects
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1339,6 +1339,64 @@ namespace MyCsProgram
     {
         public string name;
         public int age;
+
+        public void Eat()
+        {
+            Console.WriteLine($"{name} is eating");
+        }
+
+        public void Sleep()
+        {
+            Console.WriteLine($"{name} is sleeping");
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //constructor = a special method in a class
+            //              same name as the class name
+            //              can be used to assign arguments to fields when creating an object 
+
+            Human human1 = new Human("Rick", 65); //now parameters need to be passed
+            Human human2 = new Human("Morty", 14);
+
+            //human1.name = "Rick"; //no need to define separately
+            //human1.age = 65;
+
+            human1.Eat();
+            human1.Sleep();
+
+
+            //human2.name = "Morty";
+            //human2.age = 14;
+
+            human2.Eat();
+            human2.Sleep();
+
+            Console.ReadKey();
+        }
+    }
+
+    class Human
+    {
+        public string name;
+        public int age;
+
+        public Human(string name, int age)
+        {
+
+        }
 
         public void Eat()
         {
