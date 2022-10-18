@@ -1261,7 +1261,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 31: classes
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1295,6 +1295,29 @@ namespace MyCsProgram
         public static void Bye()
         {
             Console.WriteLine("Gotta go now. Goodbye!");
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 32: objects
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //object = an instance of a class
+            //         a class can be used as a blueprint to create objects (OOP)
+            //         objects can have fields and methods (characteristics & actions)
+
+
+
+            Console.ReadKey();
         }
     }
 }
