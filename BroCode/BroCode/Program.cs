@@ -1490,6 +1490,7 @@ namespace MyCsProgram
         public string model;
         public string colour;
         public int year;
+        public static int numberOfCars; //to keep track of the number of cars 
 
         public Car(string make, string model, string colour, int year)
         {
@@ -1497,6 +1498,9 @@ namespace MyCsProgram
             this.model = model;
             this.colour = colour;
             this.year = year;
+
+            numberOfCars++; //increment number of cars each time new Car is instantiated
+                            //as opposed to counting instances of specific car models
         }
 
         public void Drive()
