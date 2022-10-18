@@ -1354,8 +1354,9 @@ namespace MyCsProgram
 */
 
 //__________________________________
-//Lesson 
+//Lesson 33: constructors
 
+/*
 using System;
 
 namespace MyCsProgram
@@ -1385,7 +1386,7 @@ namespace MyCsProgram
 
             human2.Eat();
             human2.Sleep();
-            */
+            
 
             Car car1 = new Car("Ford", "Mustang", "red",2022);
             Car car2 = new Car("Audi", "R6", "black", 2018);
@@ -1449,7 +1450,65 @@ namespace MyCsProgram
         {
             Console.WriteLine($"{name} is sleeping");
         }
-    }*/
+    }
+}
+*/
+
+//__________________________________
+//Lesson 34: static
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //static = modifier to declare a static member, which belongs to the class itself
+            //         rather than to any object
+
+            Car car1 = new Car("Ford", "Mustang", "red", 2022);
+            Car car2 = new Car("Audi", "R6", "black", 2018);
+            Car car3 = new Car("Mercedez", "Benz", "silver", 2020);
+
+            car1.Drive();
+            car2.Drive();
+            car3.Drive();
+
+            car1.Stop();
+            car2.Stop();
+            car3.Stop();
+
+            Console.ReadKey();
+        }
+    }
+
+    class Car
+    {
+        public string make;
+        public string model;
+        public string colour;
+        public int year;
+
+        public Car(string make, string model, string colour, int year)
+        {
+            this.make = make;
+            this.model = model;
+            this.colour = colour;
+            this.year = year;
+        }
+
+        public void Drive()
+        {
+            Console.WriteLine($"You drive the {year} {make} {model}");
+        }
+
+        public void Stop()
+        {
+            Console.WriteLine($"You stop the {year} {make} {model}");
+        }
+    }
 }
 
 //__________________________________
