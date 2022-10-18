@@ -1269,9 +1269,32 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //class = A bundle of related code.
+            //        Can be used as a bluebprint to create objects (OOP)
 
+            Messages.Hello();
+            Messages.Waiting();
+            Messages.Bye();
 
             Console.ReadKey();
+        }
+    }
+
+    class Messages //usually each class is assigned a script
+    {
+        public static void Hello()
+        {
+            Console.WriteLine("Hello! Hapyy to be here");
+        }
+
+        public static void Waiting()
+        {
+            Console.WriteLine("I am waiting for something");
+        }
+
+        public static void Bye()
+        {
+            Console.WriteLine("Gotta go now. Goodbye!");
         }
     }
 }
