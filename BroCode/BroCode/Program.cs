@@ -1257,6 +1257,25 @@ namespace MyCsProgram
     }
 }
 */
+
+//__________________________________
+//Lesson 31: classes
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
+        }
+    }
+}
+
 //__________________________________
 //Lesson 
 
