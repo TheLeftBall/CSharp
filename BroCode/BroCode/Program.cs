@@ -1369,7 +1369,8 @@ namespace MyCsProgram
             //              can be used to assign arguments to fields when creating an object 
 
             Human human1 = new Human("Rick", 65); //now parameters need to be passed
-            Human human2 = new Human("Morty", 14);
+            Human human2 = new Human("Morty", 14); //works the same as in the last lesson
+                                                   //no need to define the values manually
 
             //human1.name = "Rick"; //no need to define separately
             //human1.age = 65;
@@ -1395,7 +1396,8 @@ namespace MyCsProgram
 
         public Human(string name, int age)
         {
-
+            this.name = name;
+            this.age = age;
         }
 
         public void Eat()
