@@ -1735,9 +1735,11 @@ namespace MyCsProgram
         {
             Car car1 = new Car("Mustang", "Red");
 
+            Car car2 = Copy(car1);
+
             ChangeColour(car1, "silver");
 
-            Console.WriteLine($"{car1.colour} {car1.model}");
+            Console.WriteLine($"{car2.colour} {car2.model}");
 
             Console.ReadKey();
         }
