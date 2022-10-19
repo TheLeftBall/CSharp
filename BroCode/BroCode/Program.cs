@@ -1693,9 +1693,15 @@ namespace MyCsProgram
             garage[1] = car2;
             garage[2] = car3;
 
-            Console.WriteLine(garage[0].model);
-            Console.WriteLine(garage[1].model);
-            Console.WriteLine(garage[2].model);
+            //Console.WriteLine(garage[0].model);
+            //Console.WriteLine(garage[1].model);
+            //Console.WriteLine(garage[2].model);
+
+            //alternatively can write this
+            foreach (Car car in garage)
+            {
+                Console.WriteLine(car.model);
+            }
 
             Console.ReadKey();
         }
