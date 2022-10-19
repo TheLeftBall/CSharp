@@ -1571,6 +1571,25 @@ namespace MyCsProgram
     }
 }
 */
+
+//__________________________________
+//Lesson 
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
+        }
+    }
+}
+
 //__________________________________
 //Lesson 
 
