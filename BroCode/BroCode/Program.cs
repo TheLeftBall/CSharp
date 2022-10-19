@@ -1737,6 +1737,8 @@ namespace MyCsProgram
 
             ChangeColour(car1, "silver");
 
+            Console.WriteLine($"{car1.colour} {car1.model}");
+
             Console.ReadKey();
         }
 
