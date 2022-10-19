@@ -1624,7 +1624,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 37: abstract classes
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1668,6 +1668,34 @@ namespace MyCsProgram
     {
         public int wheels = 0;
 
+    }
+}
+*/
+
+//__________________________________
+//Lesson 38: array of objects
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
+        }
+    }
+    class Car 
+    {
+        public string model;
+
+        public Car(string model)
+        {
+            this.model = model;
+        }
     }
 }
 
