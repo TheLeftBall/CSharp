@@ -1675,7 +1675,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 38: array of objects
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1717,6 +1717,37 @@ namespace MyCsProgram
         public Car(string model)
         {
             this.model = model;
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 39: objects as arguments
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
+        }
+    }
+
+    class Car
+    {
+        public string model;
+        public string colour;
+
+        public Car(string model, string colour)
+        {
+            this.model = model;
+            this.colour = colour;
         }
     }
 }
