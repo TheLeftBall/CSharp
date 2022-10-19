@@ -1595,8 +1595,13 @@ namespace MyCsProgram
 
         public void Go()
         {
-
+            Console.WriteLine("This vehicle is moving");
         }
+    }
+
+    class Car
+    {
+
     }
 }
 
