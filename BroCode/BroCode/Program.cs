@@ -1746,6 +1746,11 @@ namespace MyCsProgram
         {
             car.colour = colour;
         }
+
+        public static Car Copy(Car car)
+        {
+            return new Car(car.model, car.colour);
+        }
     }
 
     class Car
