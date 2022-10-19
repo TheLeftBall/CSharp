@@ -1725,7 +1725,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 39: objects as arguments
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1764,6 +1764,25 @@ namespace MyCsProgram
         {
             this.model = model;
             this.colour = colour;
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 40: method overriding
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
         }
     }
 }
