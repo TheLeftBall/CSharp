@@ -1583,9 +1583,19 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
-
+            //inheritence = 1 or more child classes receiving fields, methods, etc. from a common parent 
 
             Console.ReadKey();
+        }
+    }
+
+    class Vehicle
+    {
+        public int speed = 0;
+
+        public void Go()
+        {
+
         }
     }
 }
