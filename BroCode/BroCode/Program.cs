@@ -1599,7 +1599,7 @@ namespace MyCsProgram
         }
     }
 
-    class Car
+    class Car : Vehicle //Car class inherits its features from Vehicle class
     {
 
     }
