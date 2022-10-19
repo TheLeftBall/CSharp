@@ -1638,13 +1638,13 @@ namespace MyCsProgram
             Car car = new Car();
             Bicycle bicycle = new Bicycle();
             Boat boat = new Boat();
-            Vehicle vehicle = new Vehicle();
-         
+            //Vehicle vehicle = new Vehicle(); //unfinished class, incomplete implementation
+
             Console.ReadKey();
         }
     }
 
-    class Vehicle
+    abstract class Vehicle //precede the class with abstract
     {
         public int speed = 0;
 
