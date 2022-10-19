@@ -1527,7 +1527,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 35: overloaded constructors
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1570,7 +1570,7 @@ namespace MyCsProgram
         }
     }
 }
-
+*/
 //__________________________________
 //Lesson 
 
