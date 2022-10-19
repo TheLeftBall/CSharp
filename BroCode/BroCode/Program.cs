@@ -1735,7 +1735,14 @@ namespace MyCsProgram
         {
             Car car1 = new Car("Mustang", "Red");
 
+            ChangeColour(car1, "silver");
+
             Console.ReadKey();
+        }
+
+        public static void ChangeColour(Car car, string colour)
+        {
+            car.colour = colour;
         }
     }
 
