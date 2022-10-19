@@ -1584,6 +1584,10 @@ namespace MyCsProgram
         static void Main(string[] args)
         {
             //inheritence = 1 or more child classes receiving fields, methods, etc. from a common parent 
+            Car car = new Car();
+            Bicycle bicycle = new Bicycle();
+            Boat boat = new Boat();
+
 
             Console.ReadKey();
         }
@@ -1601,6 +1605,17 @@ namespace MyCsProgram
 
     class Car : Vehicle //Car class inherits its features from Vehicle class
     {
+        public int wheels = 4;
+    }
+
+    class Bicycle : Vehicle
+    {
+        public int wheels = 2;
+    }
+
+    class Boat : Vehicle
+    {
+        public int wheels = 0;
 
     }
 }
