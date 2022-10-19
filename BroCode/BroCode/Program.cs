@@ -1683,15 +1683,19 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
-            Car[] garage = new Car[3];
+            //instead of this:
+            //Car[] garage = new Car[3];
 
-            Car car1 = new Car("Mustang");
-            Car car2 = new Car("Ferrari");
-            Car car3 = new Car("Porche");
+            //Car car1 = new Car("Mustang");
+            //Car car2 = new Car("Ferrari");
+            //Car car3 = new Car("Porche");
 
-            garage[0] = car1;
-            garage[1] = car2;
-            garage[2] = car3;
+            //garage[0] = car1;
+            //garage[1] = car2;
+            //garage[2] = car3;
+
+            //can write this
+            Car[] garage = { new Car("Mustang"), new Car("Ferrari"), new Car("Porche") }; //does the same but less steps
 
             //Console.WriteLine(garage[0].model);
             //Console.WriteLine(garage[1].model);
