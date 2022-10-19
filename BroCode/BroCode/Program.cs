@@ -1733,7 +1733,7 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
-
+            Car car1 = new Car("Mustang", "Red");
 
             Console.ReadKey();
         }
