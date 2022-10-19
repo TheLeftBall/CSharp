@@ -1539,7 +1539,34 @@ namespace MyCsProgram
             //                          with a different set of parameters
             //                          name + parameters = signature
 
+            Pizza pizza1 = new Pizza("White", "Mayo", "American");
+
+
+
             Console.ReadKey();
+        }
+    }
+
+    class Pizza
+    {
+        string bread;
+        string sauce;
+        string cheese;
+        string topping;
+
+        public Pizza(string bread, string sauce, string cheese, string topping)
+        {
+            this.bread = bread;
+            this.sauce = sauce;
+            this.cheese = cheese;
+            this.topping = topping;
+        }
+
+        public Pizza(string bread, string sauce, string cheese)
+        {
+            this.bread = bread;
+            this.sauce = sauce;
+            this.cheese = cheese;
         }
     }
 }
