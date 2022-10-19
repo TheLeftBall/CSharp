@@ -1573,9 +1573,9 @@ namespace MyCsProgram
 */
 
 //__________________________________
-//Lesson 
+//Lesson 36: inheritance 
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1617,6 +1617,25 @@ namespace MyCsProgram
     {
         public int wheels = 0;
 
+    }
+}
+*/
+
+//__________________________________
+//Lesson 37: abstract classes
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
+        }
     }
 }
 
