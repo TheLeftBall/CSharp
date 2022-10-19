@@ -1632,10 +1632,42 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //abstract classes = modifier that indicates missing components or incomplete implementation
 
 
+            Car car = new Car();
+            Bicycle bicycle = new Bicycle();
+            Boat boat = new Boat();
+            Vehicle vehicle = new Vehicle();
+         
             Console.ReadKey();
         }
+    }
+
+    class Vehicle
+    {
+        public int speed = 0;
+
+        public void Go()
+        {
+            Console.WriteLine("This vehicle is moving");
+        }
+    }
+
+    class Car : Vehicle //Car class inherits its features from Vehicle class
+    {
+        public int wheels = 4;
+    }
+
+    class Bicycle : Vehicle
+    {
+        public int wheels = 2;
+    }
+
+    class Boat : Vehicle
+    {
+        public int wheels = 0;
+
     }
 }
 
