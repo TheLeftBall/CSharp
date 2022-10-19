@@ -1588,7 +1588,7 @@ namespace MyCsProgram
             Bicycle bicycle = new Bicycle();
             Boat boat = new Boat();
 
-            boat.Go();
+            boat.Go(); //inheriting has access to methods of the other class
             Console.ReadKey();
         }
     }
