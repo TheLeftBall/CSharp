@@ -1948,12 +1948,27 @@ namespace MyCsProgram
         }
     }
 
+    interface IPrey
+    {
+
+    }
+
+    interface IPredator
+    {
+
+    }
+
     class Rabbit
     {
 
     }
 
     class Hawk
+    {
+
+    }
+
+    class Fish
     {
 
     }
