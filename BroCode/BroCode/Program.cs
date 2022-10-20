@@ -1886,6 +1886,12 @@ namespace MyCsProgram
             Boat boat = new Boat();
 
             Vehicle[] vehicles = { car, bicycle, boat };
+
+            foreach (Vehicle vehicle in vehicles)
+            {
+                Console.WriteLine(vehicle);
+            }
+
             Console.ReadKey();
         }
     }
