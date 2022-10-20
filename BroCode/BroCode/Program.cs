@@ -1881,8 +1881,41 @@ namespace MyCsProgram
             //               Objects can be identified by more than one type
             //               E.g. A Dog is also: Canine, Animal, Organism
 
+            Car car = new Car();
+            Bicycle bicycle = new Bicycle();
+            Boat boat = new Boat();
 
+            Vehicle[] vehicles = { car, bicycle, boat };
             Console.ReadKey();
+        }
+    }
+
+    class Vehicle
+    {
+
+    }
+
+    class Car : Vehicle
+    {
+        public void Go()
+        {
+            Console.WriteLine("The car is moving!");
+        }
+    }
+
+    class Bicycle : Vehicle
+    {
+        public void Go()
+        {
+            Console.WriteLine("The bicycle is moving!");
+        }
+    }
+
+    class Boat : Vehicle
+    {
+        public void Go()
+        {
+            Console.WriteLine("The boat is moving!");
         }
     }
 }
