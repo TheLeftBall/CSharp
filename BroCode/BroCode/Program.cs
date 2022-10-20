@@ -2022,11 +2022,15 @@ namespace MyCsProgram
             food.Add("Pizza"); //adds to the list 
             food.Add("Hamburger");
             food.Add("HotDog");
+            food.Add("Pizza");
 
             //food.Remove("HotDog"); //removes from the list
             //food.Insert(0, "Sushi"); //adds object at a stated index
             //Console.WriteLine(food.Count()); //counts the list size
-            Console.WriteLine(food.IndexOf("Pizza")); //finds the index of object in list
+            //Console.WriteLine(food.IndexOf("Pizza")); //finds the index of object in list
+            Console.WriteLine(food.LastIndexOf("Pizza")); //finds the last index of object, useful of two objects
+                                                          //with the same name
+                     
 
             foreach (string snacks in food)
             {
