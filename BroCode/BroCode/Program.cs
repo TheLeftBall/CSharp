@@ -2010,7 +2010,9 @@ namespace MyCsProgram
     class Program
     {
         static void Main(string[] args)
-        { }
+        {
+
+        }
     }
 }
 
@@ -2024,7 +2026,9 @@ namespace MyCsProgram
     class Program
     {
         static void Main(string[] args)
-        { }
+        {
+
+        }
     }
 }
-*
+*/
