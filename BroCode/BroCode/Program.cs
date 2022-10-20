@@ -2034,11 +2034,17 @@ namespace MyCsProgram
             //food.Sort(); //will sort the list in alphabetical order
             //food.Reverse(); //sorts food in the reverse order
             //food.Clear(); //clears the list
-                     
 
-            foreach (string snacks in food)
+            //foreach (string snacks in food)
+            //{
+            //    Console.WriteLine(snacks);
+            //}
+
+            string[] foodArray = food.ToArray(); //converts list to Array
+
+            foreach (string items in foodArray)
             {
-                Console.WriteLine(snacks);
+                Console.WriteLine(items);
             }
 
             Console.ReadKey();
