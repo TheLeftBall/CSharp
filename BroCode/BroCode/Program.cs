@@ -1945,6 +1945,12 @@ namespace MyCsProgram
             //            An inheriting class defines how it should do it
 
             //            Benefit = security + multiple inheritence + "plug and play"
+
+            Rabbit rabbit = new Rabbit();
+
+            rabbit.Flee();
+
+            Console.ReadKey();
         }
     }
 
