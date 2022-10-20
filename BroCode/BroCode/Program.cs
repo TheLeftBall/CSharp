@@ -1824,7 +1824,7 @@ namespace MyCsProgram
 */
 
 //__________________________________
-//Lesson 
+//Lesson 41: ToString method
 
 using System;
 
@@ -1834,7 +1834,7 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
-
+            //ToString = converts an object to its string representation so that its suitable to display 
 
             Console.ReadKey();
         }
