@@ -1943,7 +1943,19 @@ namespace MyCsProgram
             //interface = defines a contract that all the lasses inheriting from should follow
             //            An interface declares what class should have
             //            An inheriting class defines how it should do it
+
+            //            Benefit = security + multiple inheritence + "plug and play"
         }
+    }
+
+    class Rabbit
+    {
+
+    }
+
+    class Hawk
+    {
+
     }
 }
 
