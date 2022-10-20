@@ -2032,7 +2032,8 @@ namespace MyCsProgram
             //with the same name
             //Console.WriteLine(food.Contains("Pizza")); //will return a boolean to answer whether object is/isn't present
             //food.Sort(); //will sort the list in alphabetical order
-            food.Reverse(); //sorts food in the reverse order
+            //food.Reverse(); //sorts food in the reverse order
+            food.Clear(); //clears the list
                      
 
             foreach (string snacks in food)
