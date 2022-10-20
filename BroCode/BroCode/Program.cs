@@ -2002,7 +2002,7 @@ namespace MyCsProgram
 */
 
 //__________________________________
-//Lesson
+//Lesson 44: lists
 using System;
 
 namespace MyCsProgram
@@ -2011,7 +2011,12 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //Lists = data structure that represents a list of objects that can be accessed by index.
+            //        similar to array, but can dynamically increase/decrease in size
+            //        sing.Systems.Collections.Generic;
 
+
+            Console.ReadKey();
         }
     }
 }
@@ -2028,6 +2033,7 @@ namespace MyCsProgram
         static void Main(string[] args)
         {
 
+           Console.ReadKey();
         }
     }
 }
