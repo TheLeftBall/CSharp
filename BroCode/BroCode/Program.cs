@@ -1857,8 +1857,11 @@ namespace MyCsProgram
 
         public override string ToString()
         {
-            string message = $"This is a {make} {model}";
-            return base.ToString();
+            //string message = $"This is a {make} {model}";
+            //return base.ToString();
+
+            //alternatively can simply
+            return $"This is a {make} {model}";
         }
     }
 }
