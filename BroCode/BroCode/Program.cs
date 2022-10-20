@@ -2016,9 +2016,10 @@ namespace MyCsProgram
             //        similar to array, but can dynamically increase/decrease in size
             //        sing.Systems.Collections.Generic;
 
-            List<string> food = new List<string>();
+            List<string> food = new List<string>(); //main difference with array
+                                                    //can be changed once defined
 
-            food.Add("Pizza");
+            food.Add("Pizza"); //adds to the list 
             food.Add("Hamburger");
             food.Add("HotDog");
 
