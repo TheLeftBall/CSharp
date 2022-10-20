@@ -2013,7 +2013,7 @@ namespace MyCsProgram
         static void Main(string[] args)
         {
             //Lists = data structure that represents a list of objects that can be accessed by index.
-            //        similar to array, but can dynamically increase/decrease in size
+            //        similar to array, but can dynamically increase/decrease in size BUT waste more memory
             //        sing.Systems.Collections.Generic;
 
             List<string> food = new List<string>(); //main difference with array
