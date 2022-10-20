@@ -1961,7 +1961,7 @@ namespace MyCsProgram
 
     interface IPredator
     {
-
+        void Hunt();
     }
 
     class Rabbit : IPrey
@@ -1972,9 +1972,12 @@ namespace MyCsProgram
         }
     }
 
-    class Hawk
+    class Hawk : IPredator
     {
-
+        public void Hunt()
+        {
+            Console.WriteLine("The hawk is preying");
+        }
     }
 
     class Fish
