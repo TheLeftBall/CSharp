@@ -1846,6 +1846,20 @@ namespace MyCsProgram
         string model;
         string colour;
         int year;
+
+        public Car(string make, string model, string colour, int year)
+        {
+            this.make = make;
+            this.model = model;
+            this.colour = colour;
+            this.year = year;
+        }
+
+        public override string ToString()
+        {
+            string message = $"This is a {make} {model}";
+            return base.ToString();
+        }
     }
 }
 
