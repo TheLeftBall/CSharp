@@ -1877,6 +1877,9 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //polymorphism = Greek word that means to "have many forms"
+            //               Objects can be identified by more than one type
+            //               E.g. A Dog is also: Canine, Animal, Organism
 
 
             Console.ReadKey();
