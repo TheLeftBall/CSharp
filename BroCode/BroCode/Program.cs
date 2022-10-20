@@ -1772,7 +1772,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 40: method overriding
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1818,6 +1818,25 @@ namespace MyCsProgram
         public override void Run() //to verride a method must put virtual before method type
         {
             Console.WriteLine("The cat looks at you, looks away and lies down to sleep");
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.ReadKey();
         }
     }
 }
