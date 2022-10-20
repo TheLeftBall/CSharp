@@ -1826,8 +1826,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 41: ToString method
 
-using System;
-
+/*
 namespace MyCsProgram
 {
     class Program
@@ -1865,11 +1864,12 @@ namespace MyCsProgram
         }
     }
 }
+*/
 
 //__________________________________
-//Lesson 
+//Lesson 42: polymorphism
 
-/*using System;
+using System;
 
 namespace MyCsProgram
 {
@@ -1882,4 +1882,4 @@ namespace MyCsProgram
             Console.ReadKey();
         }
     }
-}*/
+}
