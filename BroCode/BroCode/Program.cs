@@ -1950,7 +1950,7 @@ namespace MyCsProgram
 
     interface IPrey
     {
-
+        void Flee();
     }
 
     interface IPredator
@@ -1958,9 +1958,12 @@ namespace MyCsProgram
 
     }
 
-    class Rabbit
+    class Rabbit : IPrey
     {
-
+        public void Flee()
+        {
+            Console.WriteLine("The rabbit is fleeing");
+        }
     }
 
     class Hawk
