@@ -1889,7 +1889,7 @@ namespace MyCsProgram
 
             foreach (Vehicle vehicle in vehicles)
             {
-                Console.WriteLine(vehicle);
+                vehicle.Go();
             }
 
             Console.ReadKey();
@@ -1898,12 +1898,15 @@ namespace MyCsProgram
 
     class Vehicle
     {
-
+        public virtual void Go()
+        {
+            Console.WriteLine("The vehicle is going!");
+        }
     }
 
     class Car : Vehicle
     {
-        public void Go()
+        public override void Go()
         {
             Console.WriteLine("The car is moving!");
         }
@@ -1911,7 +1914,7 @@ namespace MyCsProgram
 
     class Bicycle : Vehicle
     {
-        public void Go()
+        public override void Go()
         {
             Console.WriteLine("The bicycle is moving!");
         }
@@ -1919,7 +1922,7 @@ namespace MyCsProgram
 
     class Boat : Vehicle
     {
-        public void Go()
+        public override void Go()
         {
             Console.WriteLine("The boat is moving!");
         }
