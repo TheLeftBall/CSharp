@@ -1869,7 +1869,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 42: polymorphism
 
-using System;
+/*using System;
 
 namespace MyCsProgram
 {
@@ -1928,3 +1928,32 @@ namespace MyCsProgram
         }
     }
 }
+*/
+
+//__________________________________
+//Lesson 43: interfaces
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { }
+    }
+}
+
+
+//__________________________________
+//Lesson
+/*using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { }
+    }
+}
+*/
