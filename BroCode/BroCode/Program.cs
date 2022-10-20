@@ -2025,7 +2025,8 @@ namespace MyCsProgram
 
             //food.Remove("HotDog"); //removes from the list
             //food.Insert(0, "Sushi"); //adds object at a stated index
-            Console.WriteLine(food.Count()); //counts the list size
+            //Console.WriteLine(food.Count()); //counts the list size
+            Console.WriteLine(food.IndexOf("Pizza")); //finds the index of object in list
 
             foreach (string snacks in food)
             {
