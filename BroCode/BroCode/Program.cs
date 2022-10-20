@@ -1780,10 +1780,39 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //method overriding = rovides a new version of a method inherited from a parent class
+            //                    inherited methods must be: abstract, virtual, or already overriden
+            //                    Used with ToString(), polymorphism
 
+            Dog dog = new Dog();
+            Cat cat = new Cat();
 
             Console.ReadKey();
         }
+    }
+
+    class Animal
+    {
+
+        public void Run()
+        {
+            Console.WriteLine($"The animal is running");
+        }
+
+        public void Stop()
+        {
+            Console.WriteLine($"The animal has stopped");
+        }
+    }
+
+    class Dog : Animal
+    {
+ 
+    }
+
+    class Cat : Animal
+    {
+
     }
 }
 
