@@ -1947,8 +1947,10 @@ namespace MyCsProgram
             //            Benefit = security + multiple inheritence + "plug and play"
 
             Rabbit rabbit = new Rabbit();
+            Hawk hawk = new Hawk();
 
             rabbit.Flee();
+            hawk.Hunt();
 
             Console.ReadKey();
         }
@@ -1980,9 +1982,17 @@ namespace MyCsProgram
         }
     }
 
-    class Fish
+    class Fish : IPrey, IPredator //can iinherit from multiple interfaces, separated with a coma
     {
+        public void Flee()
+        {
+            Console.WriteLine("The fish is fleeing");
+        }
 
+        public void Hunt()
+        {
+            Console.WriteLine("The fish is preying");
+        }
     }
 }
 
