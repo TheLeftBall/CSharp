@@ -2023,6 +2023,10 @@ namespace MyCsProgram
             food.Add("Hamburger");
             food.Add("HotDog");
 
+            //food.Remove("HotDog"); //removes from the list
+            //food.Insert(0, "Sushi"); //adds object at a stated index
+            Console.WriteLine(food.Count()); //counts the list size
+
             foreach (string snacks in food)
             {
                 Console.WriteLine(snacks);
