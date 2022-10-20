@@ -2004,6 +2004,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 44: lists
 using System;
+using System.Collections.Generic;
 
 namespace MyCsProgram
 {
@@ -2015,10 +2016,11 @@ namespace MyCsProgram
             //        similar to array, but can dynamically increase/decrease in size
             //        sing.Systems.Collections.Generic;
 
-            string[] food = new string[3];
-            food[0] = "Pizza";
-            food[1] = "Hamburger";
-            food[2] = "HotDog";
+            List<string> food = new List<string>();
+
+            food.Add("Pizza");
+            food.Add("Hamburger");
+            food.Add("HotDog");
 
             foreach (string snacks in food)
             {
