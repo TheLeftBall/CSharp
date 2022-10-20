@@ -1932,6 +1932,7 @@ namespace MyCsProgram
 
 //__________________________________
 //Lesson 43: interfaces
+/*
 using System;
 
 namespace MyCsProgram
@@ -1948,9 +1949,12 @@ namespace MyCsProgram
 
             Rabbit rabbit = new Rabbit();
             Hawk hawk = new Hawk();
+            Fish fish = new Fish();
 
             rabbit.Flee();
             hawk.Hunt();
+            fish.Flee();
+            fish.Hunt();
 
             Console.ReadKey();
         }
@@ -1995,6 +1999,20 @@ namespace MyCsProgram
         }
     }
 }
+*/
+
+//__________________________________
+//Lesson
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { }
+    }
+}
 
 
 //__________________________________
@@ -2009,4 +2027,4 @@ namespace MyCsProgram
         { }
     }
 }
-*/
+*
