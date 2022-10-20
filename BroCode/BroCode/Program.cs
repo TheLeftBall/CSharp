@@ -1787,6 +1787,9 @@ namespace MyCsProgram
             Dog dog = new Dog();
             Cat cat = new Cat();
 
+            dog.Run();
+            cat.Run();
+
             Console.ReadKey();
         }
     }
@@ -1794,7 +1797,7 @@ namespace MyCsProgram
     class Animal
     {
 
-        public void Run()
+        public virtual void Run() //for a method to be overriden needs to be virtual
         {
             Console.WriteLine($"The animal is running");
         }
@@ -1812,7 +1815,10 @@ namespace MyCsProgram
 
     class Cat : Animal
     {
-
+        public override void Run()
+        {
+            Console.WriteLine("The cat looks at you, looks away and lies down to sleep");
+        }
     }
 }
 
