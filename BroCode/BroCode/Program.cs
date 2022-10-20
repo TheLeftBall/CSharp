@@ -1815,7 +1815,7 @@ namespace MyCsProgram
 
     class Cat : Animal
     {
-        public override void Run() //to verride a method must put virtual before it
+        public override void Run() //to verride a method must put virtual before method type
         {
             Console.WriteLine("The cat looks at you, looks away and lies down to sleep");
         }
