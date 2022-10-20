@@ -2015,6 +2015,15 @@ namespace MyCsProgram
             //        similar to array, but can dynamically increase/decrease in size
             //        sing.Systems.Collections.Generic;
 
+            string[] food = new string[3];
+            food[0] = "Pizza";
+            food[1] = "Hamburger";
+            food[2] = "HotDog";
+
+            foreach (string snacks in food)
+            {
+                Console.WriteLine(snacks);
+            }
 
             Console.ReadKey();
         }
