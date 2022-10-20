@@ -1839,6 +1839,14 @@ namespace MyCsProgram
             Console.ReadKey();
         }
     }
+
+    class Car
+    {
+        string make;
+        string model;
+        string colour;
+        int year;
+    }
 }
 
 //__________________________________
