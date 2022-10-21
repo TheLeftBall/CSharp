@@ -2333,7 +2333,10 @@ namespace MyCsProgram
             Thread mainThread = Thread.CurrentThread;
             mainThread.Name = "Main Thread";
 
-            Console.WriteLine(mainThread.Name);
+            //Console.WriteLine(mainThread.Name);
+
+            Thread thread1 = new Thread(CountDown);
+            Thread thread2 = new Thread(CountUp);
 
             CountDown();
             CountUp();
