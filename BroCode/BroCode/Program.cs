@@ -2278,6 +2278,10 @@ namespace MyCsProgram
         static void Main(string[] args)
         {
             //generic = "not specific to a particular data type"
+            //           add <T> to: classes, methods, fields, etc.
+            //           allows for code reusability between different data types
+
+
 
 
            Console.ReadKey();
