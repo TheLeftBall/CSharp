@@ -2337,5 +2337,15 @@ namespace MyCsProgram
 
            Console.ReadKey();
         }
+
+        public static void CountDown()
+        {
+
+        }
+
+        public static void CountUp()
+        {
+
+        }
     }
 }
