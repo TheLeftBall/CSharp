@@ -2283,10 +2283,20 @@ namespace MyCsProgram
 
             int[] intArray = { 1, 2, 3 };
             double[] doubleArray = { 1.0, 2.0, 3.0 };
-            string[] stringArray = { };
+            string[] stringArray = { "1", "2", "3"};
+
+            DisplayElements(intArray);
 
            Console.ReadKey();
         }
+
+        public static void DisplayElements(int[] array)
+        {
+            foreach (int item in array)
+            {
+                Console.WriteLine(item + " ");
+            }
+        } 
     }
 }
 
