@@ -2335,6 +2335,9 @@ namespace MyCsProgram
 
             Console.WriteLine(mainThread.Name);
 
+            CountDown();
+            CountUp();
+
            Console.ReadKey();
         }
 
@@ -2342,13 +2345,16 @@ namespace MyCsProgram
         {
             for (int i = 10; i >= 0; i--)
             {
-                Console.WriteLine($"Countdown is {i}");
+                Console.WriteLine($"Countdown is now at: {i}");
             }
         }
 
         public static void CountUp()
         {
-            
+            for (int i = 0; i <= 10; i++)
+            {
+                Console.WriteLine($"Countup is now at : {i}");
+            }
         }
     }
 }
