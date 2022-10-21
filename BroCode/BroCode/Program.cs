@@ -2269,6 +2269,7 @@ namespace MyCsProgram
 
 //__________________________________
 //Lesson 49: generics
+/*
 using System;
 
 namespace MyCsProgram
@@ -2291,7 +2292,7 @@ namespace MyCsProgram
            Console.ReadKey();
         }
 
-        /*
+        
         public static void DisplayElements(int[] array) //method now can be used with any data type
         {
             foreach (int item in array)
@@ -2299,7 +2300,7 @@ namespace MyCsProgram
                 Console.WriteLine(item + " ");
             }
         }
-        */
+        
 
         public static void DisplayElements<T>(T[] array) //method now can be used with any data type
         {
@@ -2310,11 +2311,11 @@ namespace MyCsProgram
         } 
     }
 }
-
+*/
 
 //__________________________________
-//Lesson 50: 
-/*using System;
+//Lesson 50: multithreading
+using System;
 
 namespace MyCsProgram
 {
@@ -2322,9 +2323,13 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //thread = an execution path of a program
+            //         we can use multiple threads to perform
+            //         different tasks of our program at the same time
+            //         current thread running is main thread
+            //         using System.Threading;
 
            Console.ReadKey();
         }
     }
 }
-*/
