@@ -2219,6 +2219,9 @@ namespace MyCsProgram
 
             Console.WriteLine($"{PlanetRadius.Pluto}'s radius is {(int)PlanetRadius.Pluto} kilometers");
 
+            string name = Planets.Earth.ToString();
+            Console.WriteLine($"planet {name}");
+
             Console.ReadKey();
         }
     }
