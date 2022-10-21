@@ -2226,6 +2226,7 @@ namespace MyCsProgram
             Console.WriteLine($"Radius is: {radius}");
 
             double volume = Volume(PlanetRadius.Earth);
+            Console.WriteLine($"Volume is: {volume} kilometers");
 
             Console.ReadKey();
         }
