@@ -2218,6 +2218,19 @@ namespace MyCsProgram
            Console.ReadKey();
         }
     }
+
+    enum Planets
+    {
+        Mercury,
+        Venus,
+        Earth,
+        Mars,
+        Jupiter,
+        Saturn,
+        Uranus,
+        Neptune,
+        Pluto
+    }
 }
 
 //__________________________________
