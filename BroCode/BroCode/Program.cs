@@ -2340,12 +2340,15 @@ namespace MyCsProgram
 
         public static void CountDown()
         {
-
+            for (int i = 10; i >= 0; i--)
+            {
+                Console.WriteLine($"Countdown is {i}");
+            }
         }
 
         public static void CountUp()
         {
-
+            
         }
     }
 }
