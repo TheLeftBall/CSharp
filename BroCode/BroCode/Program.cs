@@ -2217,6 +2217,8 @@ namespace MyCsProgram
 
             Console.WriteLine($"{Planets.Jupiter} is planet #{(int)Planets.Jupiter}");
 
+            Console.WriteLine($"{PlanetRadius.Pluto}'s radius is {(int)PlanetRadius.Pluto} kilometers");
+
             Console.ReadKey();
         }
     }
@@ -2234,7 +2236,7 @@ namespace MyCsProgram
         Pluto
     }
 
-    enum PLanetRadius
+    enum PlanetRadius
     {
         Mercury = 2439, 
         Venus = 6052,
