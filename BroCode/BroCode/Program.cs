@@ -2003,7 +2003,7 @@ namespace MyCsProgram
 
 //__________________________________
 //Lesson 44: lists
-using System;
+/*using System;
 using System.Collections.Generic;
 
 namespace MyCsProgram
@@ -2048,6 +2048,34 @@ namespace MyCsProgram
             }
 
             Console.ReadKey();
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 45: List of objects
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Player> players = new List<Player>();
+
+           Console.ReadKey();
+        }
+    }
+
+    class Player
+    {
+        public string username;
+
+        public Player(string username)
+        {
+            this.username = username;
         }
     }
 }
