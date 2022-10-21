@@ -2090,6 +2090,11 @@ namespace MyCsProgram
         {
             this.username = username;
         }
+
+        public override string ToString() //overrides to string so the username is returned
+        {
+            return username;
+        }
     }
 }
 
