@@ -2281,8 +2281,9 @@ namespace MyCsProgram
             //           add <T> to: classes, methods, fields, etc.
             //           allows for code reusability between different data types
 
-
-
+            int[] intArray = { 1, 2, 3 };
+            double[] doubleArray = { 1.0, 2.0, 3.0 };
+            string[] stringArray = { };
 
            Console.ReadKey();
         }
