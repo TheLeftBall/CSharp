@@ -2316,6 +2316,7 @@ namespace MyCsProgram
 //__________________________________
 //Lesson 50: multithreading
 using System;
+using System.Threading;
 
 namespace MyCsProgram
 {
@@ -2328,6 +2329,11 @@ namespace MyCsProgram
             //         different tasks of our program at the same time
             //         current thread running is "main" thread
             //         using System.Threading;
+
+            Thread mainThread = Thread.CurrentThread;
+            mainThread.Name = "Main Thread";
+
+            Console.WriteLine(mainThread.Name);
 
            Console.ReadKey();
         }
