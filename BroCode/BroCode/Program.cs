@@ -2065,13 +2065,18 @@ namespace MyCsProgram
         {
             List<Player> players = new List<Player>();
 
-            Player player1 = new Player("Chad");
-            Player player2 = new Player("Jake");
-            Player player3 = new Player("Tyler");
+            //Player player1 = new Player("Chad");
+            //Player player2 = new Player("Jake");
+            //Player player3 = new Player("Tyler");
 
-            players.Add(player1);
-            players.Add(player2);
-            players.Add(player3);
+            //players.Add(player1);
+            //players.Add(player2);
+            //players.Add(player3);
+
+            //alternatively can do
+            players.Add(new Player("Chad"));
+            players.Add(new Player("Jake"));
+            players.Add(new Player("Tyler"));
 
             foreach (Player player in players)
             {
