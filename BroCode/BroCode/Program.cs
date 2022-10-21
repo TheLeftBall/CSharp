@@ -2286,13 +2286,24 @@ namespace MyCsProgram
             string[] stringArray = { "1", "2", "3"};
 
             DisplayElements(intArray);
+            DisplayElements(doubleArray);
 
            Console.ReadKey();
         }
 
-        public static void DisplayElements(int[] array)
+        /*
+        public static void DisplayElements(int[] array) //method now can be used with any data type
         {
             foreach (int item in array)
+            {
+                Console.WriteLine(item + " ");
+            }
+        }
+        */
+
+        public static void DisplayElements<T>(T[] array) //method now can be used with any data type
+        {
+            foreach (T item in array)
             {
                 Console.WriteLine(item + " ");
             }
