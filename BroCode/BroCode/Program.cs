@@ -2346,7 +2346,9 @@ namespace MyCsProgram
             for (int i = 10; i >= 0; i--)
             {
                 Console.WriteLine($"Countdown is now at: {i}");
+                Thread.Sleep(1000);
             }
+            Console.WriteLine("Countdowm is complete");
         }
 
         public static void CountUp()
@@ -2354,7 +2356,9 @@ namespace MyCsProgram
             for (int i = 0; i <= 10; i++)
             {
                 Console.WriteLine($"Countup is now at : {i}");
+                Thread.Sleep(1000);
             }
+            Console.WriteLine("Countup is complete");
         }
     }
 }
