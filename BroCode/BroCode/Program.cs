@@ -2268,8 +2268,8 @@ namespace MyCsProgram
 */
 
 //__________________________________
-//Lesson 49: 
-/*using System;
+//Lesson 49: generics
+using System;
 
 namespace MyCsProgram
 {
@@ -2277,12 +2277,14 @@ namespace MyCsProgram
     {
         static void Main(string[] args)
         {
+            //generic = "not specific to a particular data type"
+
 
            Console.ReadKey();
         }
     }
 }
-*/
+
 
 //__________________________________
 //Lesson 50: 
