@@ -2187,7 +2187,7 @@ namespace MyCsProgram
         //public string Model{ get { return model; } set { model = value; } }
 
         //alternatively can use
-        public string Model { get; set; }
+        public string Model { get; set; } //autoimplmented
 
         public Car(string model)
         {
