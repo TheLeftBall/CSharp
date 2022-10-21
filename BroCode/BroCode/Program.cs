@@ -2065,7 +2065,11 @@ namespace MyCsProgram
         {
             List<Player> players = new List<Player>();
 
-           Console.ReadKey();
+            Player player1 = new Player("Chad");
+            Player player2 = new Player("Jake");
+            Player player3 = new Player("Tyler");
+
+            Console.ReadKey();
         }
     }
 
