@@ -2223,10 +2223,10 @@ namespace MyCsProgram
             Console.WriteLine($"Planet: {name}");
 
             int radius = (int)PlanetRadius.Earth;
-            Console.WriteLine($"Radius is: {radius}");
+            Console.WriteLine($"Radius is: {radius} km");
 
             double volume = Volume(PlanetRadius.Earth);
-            Console.WriteLine($"Volume is: {volume} kilometers");
+            Console.WriteLine($"Volume is: {volume} km^3");
 
             Console.ReadKey();
         }
