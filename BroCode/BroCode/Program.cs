@@ -2176,15 +2176,19 @@ namespace MyCsProgram
             //                              you only have to write get; and/or set; inside the property
 
 
+
            Console.ReadKey();
         }
     }
 
     class Car
     {
+        string model;
+        public string Model{ get { return model; } set { model = value; } }
+
         public Car(string model)
         {
-
+            this.Model = model;
         }
     }
 }
