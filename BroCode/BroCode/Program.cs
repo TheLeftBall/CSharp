@@ -2215,13 +2215,15 @@ namespace MyCsProgram
 
             //name = integer
 
+            Console.WriteLine($"{Planets.Jupiter} is planet #{(int)Planets.Jupiter}");
+
            Console.ReadKey();
         }
     }
 
     enum Planets
     {
-        Mercury,
+        Mercury, //0 by default
         Venus,
         Earth,
         Mars,
