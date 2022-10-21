@@ -2200,7 +2200,45 @@ namespace MyCsProgram
 */
 
 //__________________________________
-//Lesson
+//Lesson 48: enums
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //enums = special "class" that contains a set of named integer constants.
+            //        use enums when you have values that you know will not change,
+            //        To get an integer value from an item, you must explicitly tonvert to an int
+
+            //name = integer
+
+           Console.ReadKey();
+        }
+    }
+}
+
+//__________________________________
+//Lesson 49: 
+/*using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+           Console.ReadKey();
+        }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 50: 
 /*using System;
 
 namespace MyCsProgram
