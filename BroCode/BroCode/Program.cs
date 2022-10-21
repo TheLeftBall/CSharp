@@ -2162,7 +2162,7 @@ namespace MyCsProgram
 
 //__________________________________
 //Lesson 47: auto implemented properties
-
+/*
 using System;
 
 namespace MyCsProgram
@@ -2197,6 +2197,7 @@ namespace MyCsProgram
         }
     }
 }
+*/
 
 //__________________________________
 //Lesson
