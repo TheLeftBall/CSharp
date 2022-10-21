@@ -2183,8 +2183,11 @@ namespace MyCsProgram
 
     class Car
     {
-        string model;
-        public string Model{ get { return model; } set { model = value; } }
+        //string model;
+        //public string Model{ get { return model; } set { model = value; } }
+
+        //alternatively can use
+        public string Model { get; set; }
 
         public Car(string model)
         {
