@@ -2326,7 +2326,7 @@ namespace MyCsProgram
             //thread = an execution path of a program
             //         we can use multiple threads to perform
             //         different tasks of our program at the same time
-            //         current thread running is main thread
+            //         current thread running is "main" thread
             //         using System.Threading;
 
            Console.ReadKey();
