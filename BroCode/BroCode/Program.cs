@@ -2055,6 +2055,7 @@ namespace MyCsProgram
 
 //__________________________________
 //Lesson 45: List of objects
+/*
 using System;
 
 namespace MyCsProgram
@@ -2102,7 +2103,25 @@ namespace MyCsProgram
         }
     }
 }
+*/
 
+//__________________________________
+//Lesson 46: getters and setters
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //getters and setters = add security to fields by encapsulation
+            //                      they're accessors found within properties
+
+           Console.ReadKey();
+        }
+    }
+}
 
 //__________________________________
 //Lesson
