@@ -2335,16 +2335,16 @@ namespace MyCsProgram
 
             //Console.WriteLine(mainThread.Name);
 
-            Thread thread1 = new Thread(CountDown);
-            Thread thread2 = new Thread(CountUp);
+            Thread thread1 = new Thread(() => CountDown("CountDown"));
+            Thread thread2 = new Thread(() => CountUp("CountUp"));
 
-            CountDown();
-            CountUp();
+            thread1.Start();
+            thread2.Start();
 
            Console.ReadKey();
         }
 
-        public static void CountDown()
+        public static void CountDown(string name)
         {
             for (int i = 10; i >= 0; i--)
             {
@@ -2354,7 +2354,7 @@ namespace MyCsProgram
             Console.WriteLine("Countdowm is complete");
         }
 
-        public static void CountUp()
+        public static void CountUp(string name)
         {
             for (int i = 0; i <= 10; i++)
             {
