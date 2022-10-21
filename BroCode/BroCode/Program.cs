@@ -2215,9 +2215,9 @@ namespace MyCsProgram
 
             //name = integer
 
-            Console.WriteLine($"{Planets.Jupiter} is planet #{(int)Planets.Jupiter}");
+            //Console.WriteLine($"{Planets.Jupiter} is planet #{(int)Planets.Jupiter}");
 
-            Console.WriteLine($"{PlanetRadius.Pluto}'s radius is {(int)PlanetRadius.Pluto} kilometers");
+            //Console.WriteLine($"{PlanetRadius.Pluto}'s radius is {(int)PlanetRadius.Pluto} kilometers");
 
             string name = Planets.Earth.ToString();
             Console.WriteLine($"Planet: {name}");
@@ -2225,7 +2225,15 @@ namespace MyCsProgram
             int radius = (int)PlanetRadius.Earth;
             Console.WriteLine($"Radius is: {radius}");
 
+            double volume = Volume(PlanetRadius.Earth);
+
             Console.ReadKey();
+        }
+
+        public static double Volume(PlanetRadius radius)
+        {
+            double volume = (4.0 / 3.0) * Math.PI * Math.Pow((int)radius, 3);
+            return volume;
         }
     }
 
