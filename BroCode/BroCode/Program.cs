@@ -2201,6 +2201,7 @@ namespace MyCsProgram
 
 //__________________________________
 //Lesson 48: enums
+/*
 using System;
 
 namespace MyCsProgram
@@ -2264,6 +2265,7 @@ namespace MyCsProgram
         Pluto = 1188
     }
 }
+*/
 
 //__________________________________
 //Lesson 49: 
