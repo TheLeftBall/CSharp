@@ -2107,6 +2107,7 @@ namespace MyCsProgram
 
 //__________________________________
 //Lesson 46: getters and setters
+/*
 using System;
 
 namespace MyCsProgram
@@ -2155,6 +2156,33 @@ namespace MyCsProgram
         {
             speed = speed;
         }
+    }
+}
+*/
+
+//__________________________________
+//Lesson 47: auto implemented properties
+
+using System;
+
+namespace MyCsProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Auto implemented properties = shortcut when no additional logic is required in the property
+            //                              you do not have to define a field for a property
+            //                              you only have to write get; and/or set; inside the property
+
+
+           Console.ReadKey();
+        }
+    }
+
+    class Car
+    {
+
     }
 }
 
