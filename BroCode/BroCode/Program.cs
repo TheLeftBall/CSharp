@@ -2125,7 +2125,7 @@ namespace MyCsProgram
 
             Car car = new Car(400);
 
-            Console.WriteLine(car.speed);
+            Console.WriteLine(car.Speed);
 
            Console.ReadKey();
         }
@@ -2137,8 +2137,8 @@ namespace MyCsProgram
 
         public int Speed
         {
-            get { return speed; }
-            set
+            get { return speed; } //readable
+            set                   //writable
             {
                 if (speed > 500)
                 {
