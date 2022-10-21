@@ -2175,7 +2175,9 @@ namespace MyCsProgram
             //                              you do not have to define a field for a property
             //                              you only have to write get; and/or set; inside the property
 
+            Car car = new Car("Porche");
 
+            Console.WriteLine(car.Model);
 
            Console.ReadKey();
         }
