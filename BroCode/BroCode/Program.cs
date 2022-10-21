@@ -2182,7 +2182,10 @@ namespace MyCsProgram
 
     class Car
     {
+        public Car(string model)
+        {
 
+        }
     }
 }
 
