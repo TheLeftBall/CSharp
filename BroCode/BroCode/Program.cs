@@ -2315,7 +2315,7 @@ namespace MyCsProgram
 
 //__________________________________
 //Lesson 50: multithreading
-using System;
+/*using System;
 using System.Threading;
 
 namespace MyCsProgram
@@ -2365,3 +2365,4 @@ namespace MyCsProgram
         }
     }
 }
+*/
