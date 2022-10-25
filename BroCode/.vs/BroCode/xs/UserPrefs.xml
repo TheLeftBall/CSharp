@@ -1,22 +1,14 @@
 ﻿<Properties StartupConfiguration="{14760642-45FE-4AAE-B0BD-8CAEB0FB413E}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.BroCode PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="BroCode/Program.cs">
     <Files>
-      <File FileName="BroCode/Program.cs" Line="2338" Column="64" />
+      <File FileName="BroCode/Program.cs" Line="2368" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BroCode" expanded="True">
-            <Node name="BroCode" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="BroCode" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -25,4 +17,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
